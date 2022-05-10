@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<!--
+	Author: Payam Dowlatyari 
+	Personal Website
+	www.payamd.com
+-->
+<html>
+
+<head>
+    <title>Payam Dowlatyari - Contact</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="overlay-2" onclick="off()">
+            <div class="video-container">
+                <div class="color-overlay2"></div>
+                <video autoplay loop muted>
+                    <source src="assets/img/pexels-crazy-motions-8733060.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="top-page">
+                <div class="start-button">
+                    <a onclick="off()">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="links">
+                <p class="nav-link">
+                    <a href="resume.html">
+                        <strong>Resume</strong></a>
+                </p>
+                <p class="nav-link">
+                    <a href="portfolio.html">
+                        <strong>Portfolio</strong></a>
+                </p>
+                <p class="nav-link">
+                    <a href="photoasl.html">
+                        <strong>Photo ASL</strong></a>
+                </p>
+                <p class="nav-link">
+                    <a href="blog.html">
+                        <strong>Web Blog</strong></a>
+                </p>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="video-container">
+                <div class="color-overlay"></div>
+                <video autoplay loop muted>
+                    <source src="assets/img/pexels-crazy-motions-8733060.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="top-page">
+                <div class="grid-container">
+                    <div class="item1">
+                        <div class="schedule">
+                            <a href="/"><img src="/assets/img/payamd.png" width="125px" /></a>
+                            <a href="/about.html">
+                                About
+                            </a>
+                            <a href="/contact.html">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="start-button">
+                            <a onclick="on()">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header -->
+
+            <header id="header">
+                <div id="about-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 contact-form">
+                                <h1 class="mini-title">Get In touch</h1>
+                                <form method="post" action="https://formspree.io/f/xqkgavzo">
+                                    <div class="fields">
+                                        <div class="field">
+                                            <input class="form-control" type="text" name="name" id="name"
+                                                placeholder="Name" />
+                                        </div>
+                                        <div class="field">
+                                            <input class="form-control" type="text" name="email" id="email"
+                                                placeholder="Email" />
+                                        </div>
+                                        <div class="field">
+                                            <textarea class="form-control" name="message" id="message" rows="4"
+                                                placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div> <input type="reset" value="Reset" class="btn btn-secondary res-btn" /><input
+                                            type="submit" value="Submit" class="btn btn-secondary sub-btn" />
+                                    </div>
+                                </form>
+                                <p id="cliqz">
+                                    <a href="mailto:payamd.com@gmail.com">
+                                        contact@payamd.com</a>
+                                    <br>
+                                    <a href="tel:916-547-8918">
+                                        +1 916 547 8918 </a>
+                                    <br>
+                                    <a href="https://payamdowlatyari.afy.ai/ewF9u" target="_blank">SUBSCRIBE</a>  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Footer -->
+
+            <footer id="footer">
+                <p class="license-text"> Designed by
+                    <a href="https://www.payamd.com/" target="_blank">payamd.com</a>  
+                    &copy;&nbsp;&nbsp; 2019 - 2022 </p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- javascript code for overlay effect -->
+
+    <script>
+        window.onload = function () { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function () { return false; }
+        window.onorientationchange = function () { document.body.scrollTop = 0; }
+
+        function on() {
+            document.getElementById("overlay-2").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay-2").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
