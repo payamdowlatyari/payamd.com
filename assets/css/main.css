@@ -121,7 +121,7 @@ footer p {
 		-ms-transition: border-color 0.5s ease-in-out;
 		transition: border-color 0.5s ease-in-out;
 		color: #f3f5f8;
-		opacity: 0.6;
+		opacity: 0.5;
 		text-decoration: none ;
 		outline: 0;
 		padding-left: 5px;
@@ -227,8 +227,6 @@ footer p {
 /* BG */
 
 #main {
-/* -webkit-animation: kenburns-top 1.5s ease-out reverse both;
-animation: kenburns-top 1.5s ease-out reverse both; */
 background-repeat: no-repeat;
 background-attachment: fixed;
 -ms-background-size: cover;
@@ -272,6 +270,10 @@ background-size: cover;
 	color: #f3f5f8;
 	text-transform: uppercase;
 	text-align: justify;
+}
+
+#home-text{
+	display: none;
 }
 
 #social-links{
@@ -352,7 +354,7 @@ background-size: cover;
 	padding-right: 1em;
 }
 .schedule{
-	font-size: 0.8em;
+	font-size: 1em;
 	letter-spacing: 0.05em;
 	line-height: 2.5em;
 	font-weight: 500;
@@ -1340,7 +1342,26 @@ background-size: cover;
 		#header nav {
 			padding: 0 0em;
 		} 
+
+		.schedule{
+			font-size: 1em;
+		}
+
+		#home-text{
+			display: inline;
+		}
+
+		#home-logo{
+			display: none;
+		}
+
+		/* Main links  */
 	
+		.main-links a{
+			font-size: 0.8em;
+			letter-spacing: 0.0em;
+			font-weight: 500;
+		}
 	}
 
 .links {
@@ -1571,13 +1592,13 @@ form{
 }
 
 .main-links a{
-	font-size: 0.7em;
-	letter-spacing: 0.05em;
+	font-size: 0.75em;
+	letter-spacing: 0.0em;
 	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .main-links {
-	padding: 1em;
 	text-transform: uppercase;
 	text-align: right;
   }
@@ -1744,7 +1765,6 @@ form{
 }
 
 #dot{
-	color: firebrick;
 	opacity: 0.5;
 	font-size: smaller;	
 	float: left;

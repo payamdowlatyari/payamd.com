@@ -77,7 +77,8 @@
 				<div class="grid-container">
 					<div class="item1">
 						<div class="schedule">
-							<a href="/"><img src="/assets/img/payamd.png" width="125px" /></a>
+							<a href="/" id="home-text">Home</a>
+							<a href="/" id="home-logo"><img src="/assets/img/payamd.png" width="125px" /></a>
 							<a href="/about.html">
 								About
 							</a>
@@ -150,6 +151,7 @@
 
 	<script>
 		// document.querySelector('video').playbackRate = 0.2;
+		// document.getElementById("home-text").style.display = "none";
 		window.onload = function () { document.body.classList.remove('is-preload'); }
 		window.ontouchmove = function () { return false; }
 		window.onorientationchange = function () { document.body.scrollTop = 0; }
