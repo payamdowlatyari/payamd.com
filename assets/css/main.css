@@ -1362,6 +1362,20 @@ background-size: cover;
 			letter-spacing: 0.0em;
 			font-weight: 500;
 		}
+
+		#mlnk{
+			display: none;
+		}
+
+		/* Contact form  */
+
+		/* .sub-btn {
+			width: 50px;
+		}
+
+		.res-btn{
+			width: 50px;
+		} */
 	}
 
 .links {
@@ -1476,8 +1490,8 @@ form{
     background-color: #3dc9b3;
     opacity: 0.5;
     color: #242830;
-    width: 165px;
-    min-width: 60px;
+    /* max-width: 165px; */
+    min-width: 120px;
     margin: 5px;
 	border: none;
 	text-transform: uppercase;
@@ -1495,8 +1509,8 @@ form{
     background-color: #a1a9b0;
 	opacity: 0.5;
     color: #242830;
-    width: 165px;
-    min-width: 60px;
+    /* max-width: 165px; */
+    min-width: 120px;
     margin: 5px;
 	border: none;
 	text-transform: uppercase;
@@ -1697,7 +1711,7 @@ form{
     background-color: #000;;
     width: 100%;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .color-overlay2{
@@ -1707,7 +1721,7 @@ form{
     background-color: #fff;
     width: 100%;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .text-left{

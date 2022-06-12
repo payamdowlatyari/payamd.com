@@ -1,7 +1,7 @@
 body{
     padding-top:10em;
     background-color: transparent !important;
-    background: url('../img/765090-most-popular-technology-background-images-1920x1080-hd-for-mobile.jpg') !important; 
+    /* background: url('../img/661280.jpg') !important;  */
     color:#a1a9b0; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,9 +10,11 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-
     animation-name: bg-page;
     animation-duration: 3s;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
 }
 
 @keyframes bg-page {
@@ -33,7 +35,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{    
-    font-family: 'Syne', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
     font-weight:900;
     color:#a1a9b0; 
     opacity: 1;
@@ -44,17 +46,44 @@ h1{
      line-height:2em; 
      font-weight: 900;
      font-family: 'Ubuntu', sans-serif; 
-  
 }
+
+/* #experience h2{
+    color: goldenrod;
+}
+
+#education h2{
+    color: deepskyblue;
+}
+
+#courses h2{
+    color: coral;
+}
+
+#projects h2{
+    color: darkkhaki;
+}
+
+#skills h2{
+    color: snow;
+}
+
+#publications h2{
+    color: darkseagreen;
+}
+
+
+#membership h2{
+    color: firebrick;
+} */
 
 h2{
     font-family: 'Ubuntu', sans-serif; 
     color: #3dc9b3; 
-    opacity: 0.35; 
+    opacity: 0.5; 
     font-weight: 900;
     font-size:2.5em; 
     text-transform: uppercase;
-    
 }
 
 h3{
@@ -230,7 +259,12 @@ section.resume-section .resume-item:hover {
     opacity: 0.6;
 }
 
-@media(max-width: 520px){.navbar {width: 100%!important; min-height: 100wh!important;}} 
+@media(max-width: 520px){
+    .navbar {width: 100%!important; min-height: 100wh!important;}
+    #sideNav .navbar-nav .nav-item .nav-link , .nav-logo, h2{ 
+        text-align: center;
+    }
+} 
 
 @media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
 
@@ -300,7 +334,7 @@ a:active,a:focus,a:hover{
     background-color: #000 !important;
     max-width: 100%;
     max-height: 100vh;
-    opacity: 1;
+    opacity: 0.05;
 }
 
 .d-block{
@@ -346,8 +380,9 @@ p{
 .sub-name{
     text-align: left;
     color: #3dc9b3;
-    opacity: 0.35;
+    opacity: 0.5;
     font-style: normal;
+    text-transform: uppercase;
     font-weight: 900;
     position: relative;
     animation-name: my-sub-name;
@@ -457,17 +492,23 @@ hr{
     font-weight: 700;
     opacity: 0.7;
 }
-
+.skill-set h3{
+    font-size: 1.25em;
+}
 .skill-set p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: 'Syne', sans-serif;
     padding: 0.5em;
     padding-bottom: 1em;
 }
 
 .skill-set i{
-   font-size: 2em;
-   padding: 0.25em;
+   font-size: 3em;
+   padding: 10px;
+   line-height: 1.5em;
+}
+.skill-set .large{
+    font-size: 3.5em;
 }
 
 .courses ul li a{
@@ -560,10 +601,11 @@ hr{
     position: fixed;
     top: 0;
     left: 0;
+    /* background-color: darkslategray; */
     background-color: #000;;
     width: 100%;
     height: 100vh;
-    opacity: 0.95;
+    opacity: 1;
 }
 
 #interests i{
