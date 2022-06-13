@@ -169,6 +169,10 @@ footer p {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		#home-logo img{
+			width: 125px;
+		}
+
 /* Wrapper */
 
 	@-moz-keyframes wrapper {
