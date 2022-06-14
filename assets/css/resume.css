@@ -2,7 +2,7 @@ body{
     padding-top:10em;
     background-color: transparent !important;
     /* background: url('../img/661280.jpg') !important;  */
-    color:#a1a9b0; 
+    color: #222; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -34,14 +34,21 @@ body{
     }
 }
 
+.nav-logo img {
+    width: 125px;
+    height: auto;
+}
+
 h1,h2,h3,h4,h5,h6{    
     font-family: 'Ubuntu', sans-serif; 
     font-weight:900;
-    color:#a1a9b0; 
+    color:#222; 
     opacity: 1;
 }
 
 h1{
+    color:#111;
+    opacity: 1; 
      font-size:4em;
      line-height:2em; 
      font-weight: 900;
@@ -50,8 +57,8 @@ h1{
 
 h2{
     font-family: 'Ubuntu', sans-serif; 
-    color: #3dc9b3; 
-    opacity: 0.5; 
+    color: cadetblue;
+    opacity: 0.8; 
     font-weight: 900;
     font-size:2.5em; 
     text-transform: uppercase;
@@ -59,7 +66,7 @@ h2{
 
 h3{
     opacity: 0.75;
-    font-size:1.1em; 
+    font-size:1em; 
     line-height:2.5em;
     font-family: 'Ubuntu', sans-serif; 
 }
@@ -67,9 +74,8 @@ h3{
 .subheading{
     margin-left: 2.5px;  
     font-weight:900;
-    font-size:1rem; 
-    color: #a1a9b0;
-    font-style: italic;
+    font-size:0.8em; 
+    color: #222;
     text-transform: uppercase;
     opacity: 0.9;
 }
@@ -78,7 +84,7 @@ h3{
     padding: .25em;
     font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif; 
-    opacity: 0.7;
+    opacity: 0.75;
     font-weight: 100;
     text-transform: uppercase;
 }
@@ -154,13 +160,13 @@ h3{
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
-     color: #a1a9b0;
      padding-left: 10px; 
      transition: 0.75s;
 }
     
 #sideNav .navbar-nav .nav-item .nav-link:focus{ 
-        color: #3dc9b3;
+        /* color: #3dc9b3; */
+        color: cadetblue;
         opacity: 0.8;
 }
 
@@ -218,7 +224,7 @@ section.resume-section .resume-item {
 }
 
 .resume-date {
-    color: #f3f5f8;
+    color: #222;
     opacity: 0.5;
     z-index: 2;
 }
@@ -250,15 +256,15 @@ section.resume-section .resume-item:hover {
 }
 
 .text-primary{ 
-    font-size: 0.75em;
-    color:#f3f5f8!important; 
+    font-size: 0.9em;
+    color:#222!important; 
     text-transform: capitalize; 
     text-decoration: none;
     padding: 10px;
 }
 
 a{
-    color:#a1a9b0; 
+    color:#222; 
     font-weight: 500;
     opacity: 0.8; 
     text-decoration: none; 
@@ -266,7 +272,7 @@ a{
 }
 
 a:active,a:focus,a:hover{ 
-    color:#a1a9b0; 
+    color:#222; 
     opacity: 1;
     text-emphasis: none; 
     text-decoration: none; 
@@ -331,9 +337,9 @@ p{
 
 .fullName{
    text-align: left;
-   line-height: 0.95em;
-   color: #a1a9b0;
-   opacity: 0.65;
+   line-height: 0.9em;
+   color: #111;
+   opacity: 0.95;
    font-family: 'Ubuntu', sans-serif; 
    letter-spacing: -1px;
    font-weight: 900;
@@ -351,8 +357,8 @@ p{
 
 .sub-name{
     text-align: left;
-    color: #3dc9b3;
-    opacity: 0.5;
+    color: cadetblue;
+    opacity: 0.85;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 900;
@@ -437,7 +443,7 @@ hr{
 
 .member-link a{
     padding: 4em;
-    opacity: 0.75;
+    opacity: 0.9;
 }
 
 .member-link a:hover {
@@ -446,7 +452,8 @@ hr{
 
 .member-link img{
     padding-top: 50px;
-    opacity: 0.75;
+    padding-bottom: 25px;
+    opacity: 0.9;
 }
 
 .member-link img:hover{
@@ -461,8 +468,8 @@ hr{
 
 .small-title{
     font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    opacity: 0.7;
+    font-weight: 900;
+    opacity: 0.75;
 }
 .skill-set h3{
     font-size: 1.25em;
@@ -551,10 +558,11 @@ hr{
 
  #small-portfolio{
     font-family: 'Ubuntu', sans-serif; 
-     opacity: 0.6;
+     opacity: 0.7;
      font-weight: 900;
-     font-size: 0.8em;
-     color: #f3f5f8;
+     font-size: 1em;
+     /* color: #000; */
+     /* color: #f3f5f8; */
      text-transform: uppercase;
      letter-spacing: 0.2em;
      padding-left: 5px;
@@ -573,7 +581,6 @@ hr{
     position: fixed;
     top: 0;
     left: 0;
-    /* background-color: darkslategray; */
     background-color: #000;;
     width: 100%;
     height: 100vh;
