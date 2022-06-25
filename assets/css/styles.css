@@ -147,14 +147,16 @@ input[type="reset"], input[type="submit"] {
 
 button[disabled], input[disabled] { cursor: default; }
 
-input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */
+input[type="checkbox"], input[type="radio"] { 
+	box-sizing: border-box; /* 1 */
 	padding: 0; 
 	*height: 13px; 
 	*width: 13px; 
 }
 
 input[type="search"] { 
-	-moz-box-sizing: content-box; -webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box; 
 	box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-cancel-button, 
@@ -264,7 +266,6 @@ nav {
 	background-size: cover; margin-top: 0; 
 	margin-bottom: 0;  top:0; left: 0; width: 100%; 
 	background-attachment: fixed; 
-	padding:1em; 	
 	vertical-align: middle;
 }
 
@@ -296,23 +297,23 @@ nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s
 
 .indicator { position: absolute; right: 0 !important; }
 
-.pull {position: fixed; z-index: 100; 
+.pull {
+	position: fixed; 
+	z-index: 100; 
 	vertical-align: text-top;
 	text-align: center;
-	
-
  }
 
 .pull i{font-size: 2em; padding-left:0.1em ; padding-right: 0.1em; color: #f3f5f8; opacity: 0.75;}
 
-.pull a{ font-weight: 900; font-size: 0.9em; opacity: 0.75; padding: 0.3em; 
+.pull a{ font-weight: 900; font-size: 0.9em; opacity: 0.75; padding: 0.1em; 
 	font-family: 'Ubuntu', sans-serif; letter-spacing: 0.1em;}
 
 .pull a:hover {opacity: 1; color: #f3f5f8; transition: 1s;}
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero ,.container { padding-right: 30px; padding-left: 30px; padding-top: 100px;}
+.hero ,.container { padding-right: 30px; padding-left: 30px; padding-top: 30px;}
 
 .hero { 
 	
@@ -328,10 +329,10 @@ Hero
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000000;;
+    background-color: #000;
     width: 100%;
     height: 100vh;
-    opacity: 1;
+	opacity: 0.99;
 }
 
 .hero h1 { letter-spacing: 6px; margin: 5px; font-weight: 900;}
@@ -374,10 +375,11 @@ Hero
 }
 
 #top-nav{
-    background-color:#000000;
+    /* background-color:#fff;
+	color: #242830 !important; */
     transition: 1s;
     opacity: 1;
-	padding: 250px 10px;
+	/* padding: 250px 10px; */
 	height: 100vh;
 	padding-top: 40vh;
 	padding-bottom: 40vh;
@@ -386,7 +388,12 @@ Hero
 #logo{
 	font-size: 20px;
 	transition: 1s;
+	display: block;
 
+}
+
+#logo-home{
+	display: none;
 }
 
 #logo img {

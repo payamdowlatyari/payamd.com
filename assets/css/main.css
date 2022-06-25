@@ -1371,16 +1371,6 @@ background-size: cover;
 		#mlnk{
 			display: none;
 		}
-
-		/* Contact form  */
-
-		/* .sub-btn {
-			width: 50px;
-		}
-
-		.res-btn{
-			width: 50px;
-		} */
 	}
 
 .links {
@@ -1514,7 +1504,6 @@ form{
     background-color: #a1a9b0;
 	opacity: 0.5;
     color: #242830;
-    /* max-width: 165px; */
     min-width: 120px;
     margin: 5px;
 	border: none;

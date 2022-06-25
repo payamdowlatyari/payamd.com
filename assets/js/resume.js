@@ -1,28 +1,40 @@
-(function ($) {
-  "use strict"; // Start of use strict
+var textWrapper = document.querySelector('.ml3');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
+anime.timeline({ loop: true })
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0, 0.75],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 100 * (i + 1)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 500,
+    easing: "easeOutExpo",
+    delay: 3000
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function () {
-    $('.navbar-collapse').collapse('hide');
-  });
+document.getElementById("chev-up").style.display = "none";
+document.getElementById("sideNav").style.opacity = "1";
 
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#sideNav'
-  });
+window.onscroll = () => {
+  scrollFunction()
+};
 
-})(jQuery); // End of use strict
+const scrollFunction = () => {
+
+  if (document.body.scrollTop < 100 && document.documentElement.scrollTop < 100 ) {
+
+    document.getElementById("sideNav").style.width = "100vw";
+    document.getElementById("chev-down").style.display = "block";
+    document.getElementById("chev-up").style.display = "none";
+  
+  } else {
+    
+    document.getElementById("sideNav").style.width = "18em";
+    document.getElementById("chev-down").style.display = "none";
+    document.getElementById("chev-up").style.display = "block";        
+  }
+}

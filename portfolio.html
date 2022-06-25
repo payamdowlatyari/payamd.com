@@ -38,14 +38,21 @@
           <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12">
             <a id="nav-toggle" href="#"></a>
             <nav class="pull" id="top-nav">
-              <a href="/index.html" id="logo"><img src="/assets/img/payamd.png"/></a>
-              <br>
-              <a href="#intro">Portfolio
+             
+              <a href="/index.html" id="logo">
+                <img src="/assets/img/payamd.png"/>
               </a>
-              <a href="#features">Services
+              
+              <a class="nav-link" href="/index.html" id="logo-home">
+                Home
               </a>
-              <a href="#portfolio">Projects
+              <a class="nav-link" href="#intro">Portfolio
               </a>
+              <a class="nav-link" href="#features">Services
+              </a>
+              <a class="nav-link" href="#portfolio">Projects
+              </a>
+              <a class="nav-link" href="/resume.html">Resume</a>
               <h1 class="arrow-down" id="hero-arrow">
                 <a href="#hero"><i class="fa fa-angle-double-down" aria-hidden="true"></i>
                 </a>
@@ -324,28 +331,8 @@
   </footer>
 
   <!-- page animations  -->
+  <script src="/assets/js/portfolio.js"></script>
 
-  <script>
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("top-nav").style.paddingTop = "5px";
-        document.getElementById("top-nav").style.paddingBottom = "5px";
-        document.getElementById("top-nav").style.height = "17vh";
-        document.getElementById("top-nav").style.opacity = "0.75";
-        document.getElementById("hero-arrow").style.display = "none";
-
-      } else {
-        document.getElementById("top-nav").style.paddingTop = "40vh";
-        document.getElementById("top-nav").style.paddingBottom = "40vh";
-        document.getElementById("top-nav").style.height = "100vh";
-        document.getElementById("top-nav").style.opacity = "0.5";
-        document.getElementById("hero-arrow").style.display = "block";
-
-      }
-    }
-  </script>
   <!-- JS resources -->
   <script src="https://use.fontawesome.com/6675b002a4.js"></script>
   <script src="https://use.fontawesome.com/f169ae12f0.js"></script>
