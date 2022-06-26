@@ -13,7 +13,7 @@ const scrollFunction = () => {
 
     topNav.style.paddingTop = "10px";
     topNav.style.paddingBottom = "10px";
-    topNav.style.height = "5vh";
+    topNav.style.height = "3em";
     topNav.style.transition = "1s";
     topNav.style.backgroundColor = "#fff";
     arrow.style.display = "none";
