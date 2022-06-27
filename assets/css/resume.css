@@ -56,7 +56,7 @@ h1{
 
 h2{
     font-family: 'Ubuntu', sans-serif; 
-    color: cadetblue;
+    color: #C0392B;
     opacity: 0.8; 
     font-weight: 900;
     font-size:2.5em; 
@@ -76,14 +76,13 @@ h3{
     font-size:0.8em; 
     color: #222;
     text-transform: uppercase;
-    opacity: 0.9;
 }
 
 #link-sub-2 a{
     padding: .25em;
     font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif; 
-    opacity: 0.75;
+    opacity: 0.8;
     font-weight: 100;
     text-transform: uppercase;
 }
@@ -116,7 +115,6 @@ h3{
 .dev-icons{
     font-size:3rem;
     visibility: visible;
-
 }
 
 .dev-icons .list-inline-item i:hover{  
@@ -126,7 +124,7 @@ h3{
 #sideNav .navbar-nav .nav-item .nav-link{
      opacity: 1;
      font-weight:500;
-     letter-spacing: 0.15em;
+     letter-spacing: 0.075em;
      text-transform:uppercase;    
      padding-left: 2px;
 }
@@ -160,12 +158,12 @@ h3{
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
-     padding-left: 10px; 
+     padding-left: 5px; 
      transition: 0.75s;
 }
     
 #sideNav .navbar-nav .nav-item .nav-link:focus{ 
-        color: cadetblue;
+        color: #C0392B;
         opacity: 0.8;
 }
 
@@ -193,7 +191,6 @@ h3{
     -webkit-box-flex:0;
     -ms-flex-positive:0;
     flex-grow:0;
-    /* width:100vw; */
     margin-bottom:auto;
 }
 
@@ -244,7 +241,6 @@ section.resume-section .resume-item:hover {
         text-align: center;
     }
 } 
-
 
 @media (min-width:768px){
     section.resume-section{min-height:100vh}
@@ -305,8 +301,7 @@ a:active,a:focus,a:hover{
      color: #a1a9b0;   
      font-size: 0.9em;
      line-height: 0.3em;
-     opacity: 0.75;
-    
+     opacity: 0.75; 
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
@@ -346,9 +341,7 @@ p{
    text-align: left;
    line-height: 0.9em;
    color: #111;
-   opacity: 0.99;
    font-family: 'Ubuntu', sans-serif; 
-   letter-spacing: -1px;
    font-weight: 900;
    position: relative;
    animation-name: my-name;
@@ -359,13 +352,13 @@ p{
 
  @keyframes my-name {
     from {opacity: 0; font-size: 12em;}
-    to {opacity: 0.5; font-size: 5em;}
+    to {opacity: 0.8; font-size: 5em;}
 }
 
 .sub-name{
     text-align: left;
-    color: cadetblue;
-    opacity: 0.85;
+    color: #222;
+    opacity: 0.6;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 900;
@@ -476,7 +469,7 @@ hr{
 .small-title{
     font-family: 'Syne', sans-serif;
     font-weight: 900;
-    opacity: 0.75;
+    opacity: 0.9;
 }
 .skill-set h3{
     font-size: 1.25em;
@@ -565,14 +558,18 @@ hr{
 
  #small-portfolio{
     font-family: 'Ubuntu', sans-serif; 
-     opacity: 0.7;
-     font-weight: 900;
+     font-weight: 700;
+     color: #5499C7;
      font-size: 1em;
      text-transform: uppercase;
-     letter-spacing: 0.2em;
+     letter-spacing: 0.1em;
      padding-left: 5px;
  }
 
+ #resume-title{
+    color: #C0392B;
+    opacity: 1;
+ }
 
  .video-container {
     position: fixed;
@@ -600,8 +597,7 @@ hr{
     display: none;
 }
 
-.next-sec{
-    float: left;
-    bottom: 0;
-    color: #3dc9b3;
+#o-page{
+    color: #5499C7 !important;
+    opacity: 0.7;
 }

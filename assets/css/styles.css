@@ -87,20 +87,26 @@ sub { bottom: -0.25em; }
 
 
 #small-resume{
-	font-size: 0.5em;
+	font-size: 0.6em;
 	font-family: 'Ubuntu', sans-serif; 
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	font-weight: 900;
-	padding-left: 15px;
-	color: #f3f5f8;
-	opacity: 0.75;
+	padding-left: 20px;
+	color: #C0392B;
+	opacity: 0.9;
 }
 
 #small-resume:hover{
 	opacity: 1;
 	transition: 0.5s;
 }
+
+#o-page{
+	color: #C0392B !important;
+}
+
+
 /* ==========================================================================
 Lists
 ========================================================================== */
@@ -389,6 +395,7 @@ Hero
 
 #logo-home{
 	display: none;
+	color: #1E8449 !important;
 }
 
 #logo img {
