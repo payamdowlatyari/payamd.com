@@ -1,8 +1,8 @@
 body{
     padding-top:10em;
-    color:#a1a9b0; 
-    /* background: #f3f5f8; */
-    background-color: whitesmoke !important;
+    color:#566573; 
+    font-family: 'Ubuntu', sans-serif; 
+    background-color: #FDFEFE !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -37,9 +37,9 @@ body{
 
 
 h1,h2,h3,h4,h5,h6{    
-    font-family: 'Syne', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
     font-weight:100;
-    color:#a1a9b0; 
+    color:#566573; 
     opacity: 1;
 }
 
@@ -63,40 +63,47 @@ h3{
     opacity: 0.75;
     font-size:1.1rem; 
     line-height:2.5rem;
+    color: #566573;
+    font-family: 'Ubuntu', sans-serif; 
 }
+
 h4 {
     padding-top: 1em;
     text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 500;
 }
 
 .subheading{
     margin-left: 5px;  
     font-weight:500;
     font-size:1rem; 
-    color: #a1a9b0;
+    color: #566573;
     font-style: italic;
     opacity: 0.75;
 }
 #link-sub-2 a i{
+    color: #FDFEFE;
     font-size: 1.5em;
     padding: 0.2em;
 }
 
 #link-sub-2 a{
-    padding: .5em;
+    color: #FDFEFE;
+    padding: 0.75em;
     font-size: 1.25em;
     font-family: 'Ubuntu', sans-serif; 
-    opacity: 0.65;
+    opacity: 0.7;
     font-weight: 100;
     text-transform: uppercase;
-   
 }
 
 #link-sub-2 a:hover{
+    color: #FDFEFE;
     opacity: 1;
 }
 
- .social-icons a{
+.social-icons a{
      display:inline-block;
      height:2.75rem;
      width:2.75rem;
@@ -130,7 +137,7 @@ h4 {
      font-weight:100;
      letter-spacing: 0.1em;
      text-transform:uppercase;    
-     padding-left: 10px;
+     padding-left: 5px;
        
 }
 
@@ -156,20 +163,20 @@ h4 {
         -webkit-box-direction:normal;
         -ms-flex-direction:column;
         flex-direction:column;
-        width:17rem;
+        width:18em;
         height:100vh;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
-     color: #f3f5f8;
-     padding-left: 16px;
+     color: #FDFEFE;
+     padding-left: 24px;
      transition: 0.75s;
 }
     
 #sideNav .navbar-nav .nav-item .nav-link:focus{ 
-        color: #f3f5f8;
+        color: #FDFEFE;
         opacity: 1;
-        padding-left: 16px;
+        padding-left: 25px;
 }
 
 #sideNav .navbar-brand{
@@ -226,7 +233,8 @@ section.resume-section .resume-item {
 }
 
 section.resume-section .resume-item:hover {
-    /* box-shadow: 0.5px 0px 3px 0px #a1a9b0; transition: 0.5s; */
+    box-shadow: 0.5px 0px 3px 0px #a1a9b0; 
+    transition: 0.5s;
     
 }
 
@@ -235,11 +243,6 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    /* background-color: #242830 !important;
-    opacity: 0.85;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
     background-color: #242830 !important;;
 }
 
@@ -252,15 +255,14 @@ section.resume-section .resume-item:hover {
 }
 
 a{
-    color:#a1a9b0; 
+    color:#1B4F72; 
     opacity: 0.75; 
     text-decoration: none; 
 }
 
 a:active,a:focus,a:hover{ 
-
     opacity: 1;
-    color:#a1a9b0; 
+    color:#1B4F72; 
     text-emphasis: none; 
     text-decoration: none; 
     transition: .5s; 
@@ -281,16 +283,16 @@ a:active,a:focus,a:hover{
  #sideNav .navbar-nav .nav-item .nav-link{
     font-family: 'Ubuntu', sans-serif; 
     padding-left: 10px;
-    color: #a1a9b0;   
+    color: #FDFEFE;   
      font-size: 0.9em;
      line-height: 0.5em;
      opacity: 0.7;
-     padding-left: 14px; 
+     padding-left: 24px; 
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
-    color: #a1a9b0;
-    padding-left: 16px;
+    color: #FDFEFE;
+    padding-left: 25px;
     opacity: 1;
 }
 
@@ -355,7 +357,7 @@ p{
 }
 
 .resume-content {
-     padding: 10px;
+     padding: 20px;
 }
 
 .school-description{
@@ -415,8 +417,6 @@ hr{
     visibility: visible;
    
 }
-
-
 
 .member-link a{
     padding: 3.5rem;

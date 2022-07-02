@@ -1482,11 +1482,10 @@ form{
 }
 
 .sub-btn{
-    background-color: #3dc9b3;
-    opacity: 0.5;
+	background-color: #E59866;
+    opacity: 0.75;
     color: #242830;
-    /* max-width: 165px; */
-    min-width: 120px;
+    min-width: 100%;
     margin: 5px;
 	border: none;
 	text-transform: uppercase;
@@ -1494,17 +1493,17 @@ form{
 }
 
 .sub-btn:hover{	
-    background-color: #3dc9b3;
-	opacity: 0.75;
+    background-color: #E59866;
+	opacity: 0.95;
 	color: #242830;
     transition: 0.75s;
 }
 
 .res-btn{
-    background-color: #a1a9b0;
-	opacity: 0.5;
+	background-color: #5DADE2;
+	opacity: 0.75;
     color: #242830;
-    min-width: 120px;
+	min-width: 100%;
     margin: 5px;
 	border: none;
 	text-transform: uppercase;
@@ -1512,8 +1511,9 @@ form{
 }
 
 .res-btn:hover{	
-	
-    color: #f3f5f8;
+	background-color: #5DADE2;
+    opacity: 0.95;
+	color: #242830;
     transition: 0.75s;
 }
 
@@ -1741,8 +1741,9 @@ form{
 }
 
 #cliqz{
-	padding: 5px;
+	padding: 10px;
 	letter-spacing: 0.1em;
+	line-height: 0.5em;
 }
 
 .letters-1{

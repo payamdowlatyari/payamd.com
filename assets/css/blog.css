@@ -1,8 +1,7 @@
 body{
     padding-top:10em;
-    color: #a1a9b0; 
-    background-color: #fff !important;
- 
+    color: #566573; 
+    background-color: #FDFEFE !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -39,7 +38,7 @@ body{
 h1,h2,h3,h4,h5,h6{    
     font-family: 'Syne', sans-serif;
     font-weight:100;
-    color:#a1a9b0; 
+    color:#212F3D; 
     opacity: 1;
 }
 
@@ -50,40 +49,36 @@ h1{
      text-transform: uppercase;
 }
 
-h2{
-    font-family: 'Ubuntu', sans-serif; 
-    color: #3dc9b3; 
-    opacity: 0.75; 
-    font-weight: 900;
-    font-size:2.5em; 
-    text-transform: uppercase;
-}
-
 h3{
-    opacity: 0.75;
+    opacity: 0.95;
     font-size:1.1rem; 
     line-height:2.5rem;
+    font-weight: 500;
 }
 
 h4 {
     text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 500;
 }
 
 .subheading{
     margin-left: 5px;  
     font-weight:500;
     font-size:1rem; 
-    color: #a1a9b0;
+    color: #212F3D;
     font-style: italic;
     opacity: 0.75;
 }
 
 #link-sub-2 a i{
+    color: #EAECEE;
     font-size: 1.5em;
     padding: 0.2em;
 }
 
 #link-sub-2 a{
+    color: #EAECEE;
     padding: .5em;
     font-size: 1.25em;
     font-family: 'Ubuntu', sans-serif; 
@@ -93,6 +88,7 @@ h4 {
 }
 
 #link-sub-2 a:hover{
+    color: #EAECEE;
     opacity: 1;
 }
 
@@ -139,13 +135,12 @@ h4 {
 }
 
 #sideNav .navbar-toggler:focus{
-    color:#a1a9b0;   
+    color:#f3f5f8;   
     opacity: 1;
 }
 
 @media (min-width:992px){
     #sideNav{
-       
         text-align:left;
         position:fixed;
         top:0;
@@ -184,7 +179,6 @@ h4 {
 #sideNav .navbar-brand .img-profile{
     max-width:10rem;
     max-height:10rem;
-    border: 0.25rem solid rgba(255,255,255,0.3);
 }
     
 #sideNav .navbar-collapse{
@@ -236,31 +230,31 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    /* background-color: #242830 !important;
-    opacity: 0.85;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
-    background-color: #242830 !important;;
+    background-color: #1B4F72 !important;
 }
 
 .text-primary{ 
     font-size: 0.8em;
-    color:#a1a9b0!important; 
+    color:#1B4F72!important; 
     text-transform: capitalize; 
     text-decoration: none;
     padding: 10px;
 }
 
+h4 a{
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
 a{
-    color:#a1a9b0; 
-    opacity: 0.75; 
+    color:#1B4F72; 
+    opacity: 0.8; 
     text-decoration: none; 
 }
 
 a:active,a:focus,a:hover{ 
     opacity: 1;
-    color:#a1a9b0; 
+    color:#1B4F72; 
     text-emphasis: none; 
     text-decoration: none; 
     transition: .5s; 
@@ -280,15 +274,15 @@ a:active,a:focus,a:hover{
 
  #sideNav .navbar-nav .nav-item .nav-link{
     font-family: 'Ubuntu', sans-serif; 
-    color: #a1a9b0;   
+    color: #EAECEE;   
      font-size: 1em;
      line-height: 0.5em;
      opacity: 0.7;
-     padding-left: 23px; 
+     padding-left: 24px; 
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
-    color: #a1a9b0;
+    color: #EAECEE;
     padding-left: 25px;
     opacity: 1;
 }
@@ -354,7 +348,7 @@ p{
 }
 
 .resume-content {
-     padding: 10px;
+     padding: 20px;
 }
 
 .school-description{
