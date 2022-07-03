@@ -1,6 +1,6 @@
 body{
     padding-top:10em;
-    background-color: transparent !important;
+    background-color: #EAECEE !important;
     color: #222; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -311,7 +311,7 @@ a:active,a:focus,a:hover{
 }
 
 #sideNav {
-    background-color: #000 !important;
+    background-color: #0D1117 !important;
     max-width: 100vw;
     max-height: 100vh;
 }

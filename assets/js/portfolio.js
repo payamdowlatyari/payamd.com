@@ -15,7 +15,7 @@ const scrollFunction = () => {
     topNav.style.paddingBottom = "10px";
     topNav.style.height = "3em";
     topNav.style.transition = "1s";
-    topNav.style.backgroundColor = "#fff";
+    topNav.style.backgroundColor = "#FDFEFE";
     arrow.style.display = "none";
     logo.style.display = "none";
     home.style.display = "inline-flex";
@@ -32,7 +32,7 @@ const scrollFunction = () => {
     logo.style.display = "block";
     home.style.display = "none";
 
-    topNav.style.backgroundColor = "#000";
+    topNav.style.backgroundColor = "#0D1117";
 
     for(let i = 0; i < navLinks.length; i++)
         navLinks[i].style.color = "#ddd"
