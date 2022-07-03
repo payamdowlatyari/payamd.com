@@ -574,10 +574,10 @@ background-size: cover;
 	}
 
 	#overlay {
-		-moz-animation: overlay 1.5s 1.5s forwards;
-		-webkit-animation: overlay 1.5s 1.5s forwards;
-		-ms-animation: overlay 1.5s 1.5s forwards;
-		animation: overlay 1.5s 1.5s forwards;
+		-moz-animation: overlay 2.5s 2.5s forwards;
+		-webkit-animation: overlay 2.5s 2.5s forwards;
+		-ms-animation: overlay 2.5s 2.5s forwards;
+		animation: overlay 2.5s 2.5s forwards;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -650,10 +650,10 @@ background-size: cover;
 
 	@-ms-keyframes header {
 		0% {
-			-moz-transform: translate3d(0,1em,0);
-			-webkit-transform: translate3d(0,1em,0);
-			-ms-transform: translate3d(0,1em,0);
-			transform: translate3d(0,1em,0);
+			-moz-transform: translate3d(0,2em,0);
+			-webkit-transform: translate3d(0,2em,0);
+			-ms-transform: translate3d(0,2em,0);
+			transform: translate3d(0,2em,0);
 			opacity: 0;
 		}
 
@@ -757,10 +757,10 @@ background-size: cover;
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 3s 2.25s forwards;
+		-webkit-animation: header 3s 2.25s forwards;
+		-ms-animation: header 3s 2.25s forwards;
+		animation: header 3s 2.25s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
