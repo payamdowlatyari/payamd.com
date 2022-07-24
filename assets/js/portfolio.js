@@ -9,14 +9,23 @@ const scrollFunction = () => {
 
     let navLinks = document.getElementsByClassName('nav-link');
 
+
+
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) { 
+      arrow.style.display = "none";
+    } else {
+      arrow.style.paddingTop = "5vh"
+    }
+
 
     topNav.style.paddingTop = "10px";
     topNav.style.paddingBottom = "10px";
     topNav.style.height = "3em";
     topNav.style.transition = "1s";
     topNav.style.backgroundColor = "#FDFEFE";
-    arrow.style.display = "none";
+   
     logo.style.display = "none";
     home.style.display = "inline-flex";
 
@@ -29,6 +38,7 @@ const scrollFunction = () => {
     topNav.style.height = "100vh";
     topNav.style.transition = "1s";
     arrow.style.display = "block";
+    arrow.style.paddingTop = "0vh"
     logo.style.display = "block";
     home.style.display = "none";
 
@@ -39,3 +49,4 @@ const scrollFunction = () => {
     
   }
 }
+

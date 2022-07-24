@@ -101,13 +101,6 @@ sub { bottom: -0.25em; }
 	transition: 1s;
 }
 
-#o-page{
-	color: #C0392B !important;
-}
-
-#top-sec .next-section {
-	padding-top: 35vw;
-}
 
 
 /* ==========================================================================
