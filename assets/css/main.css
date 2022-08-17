@@ -121,7 +121,7 @@ footer p {
 		-ms-transition: border-color 0.5s ease-in-out;
 		transition: border-color 0.5s ease-in-out;
 		color: #f3f5f8;
-		opacity: 0.5;
+		opacity: 0.75;
 		text-decoration: none ;
 		outline: 0;
 		padding-left: 5px;
@@ -352,7 +352,7 @@ background-size: cover;
 	font-size: 1.4em;
 	font-weight:500;
 	color: #242830;
-	opacity: 0.75;
+	opacity: 0.8;
 	line-height: 2em;
 	border-radius: 5px;
 	padding-left: 1em;
@@ -811,7 +811,7 @@ background-size: cover;
 			letter-spacing: -0.025em;
 			line-height: 1em;
 			color: #f3f5f8;
-			opacity: 0.45;
+			opacity: 0.65;
 			font-family: 'Ubuntu', sans-serif;
 			text-transform: uppercase;
 		}
@@ -1521,7 +1521,7 @@ form{
 
 #about-link a{
 	color: #f3f5f8;
-	opacity: 0.65;
+	opacity: 0.75;
 	font-weight: 900;
 	padding: 0.2em;
 	text-transform: uppercase;
@@ -1620,7 +1620,7 @@ form{
 
 @-webkit-keyframes tracking-out-expand {
 	0% {
-	  opacity: 0.65;
+	  opacity: 0.75;
 	}
 	60% {
 	  opacity: 0.5;
@@ -1632,7 +1632,7 @@ form{
   }
   @keyframes tracking-out-expand {
 	0% {
-		opacity: 0.65;
+		opacity: 0.75;
 	  }
 	  60% {
 		opacity: 0.5;
@@ -1648,7 +1648,7 @@ form{
 	letter-spacing: 0.08em;
 	font-weight: 900;
 	padding-bottom: 0.75em;
-	opacity: 0.5;
+	opacity: 0.75;
 	text-align: left;
   }
   .ml4 .letters {
@@ -1705,23 +1705,10 @@ form{
     top: 0;
     left: 0;
     width: 100%;
-	background: linear-gradient(-45deg,#17202A, #1C2833, #1C2833, #2C3E50);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	background-color: #000;
+	opacity: 0.85;
 	height: 100vh;
 }
-
-@keyframes gradient {
-	0% {
-	  background-position: 0% 50%;
-	}
-	50% {
-	  background-position: 100% 50%;
-	}
-	100% {
-	  background-position: 0% 50%;
-	}
-  }
 
 .color-overlay2{
 	position: absolute;
@@ -1744,7 +1731,7 @@ form{
 
 #bg-logo{
 	background-attachment: fixed;
-	opacity: 0.4;
+	opacity: 0.5;
 	text-align: right;
 	padding-right: 30px;
 
@@ -1752,7 +1739,7 @@ form{
 
 #bg-logo:hover{
 	transition: 1s;
-	opacity: 0.45;
+	opacity: 0.5;
 }
 
 #cliqz{
@@ -1779,7 +1766,7 @@ form{
 
 #iam{
 	padding-left: 5px;
-	font-size: 0.4em;
+	font-size: 0.5em;
 	opacity: 0.9;
 	font-weight: 100;
 	text-transform: none;
@@ -1789,7 +1776,7 @@ form{
 }
 
 #dot{
-	opacity: 0.5;
+	opacity: 0.75;
 	font-size: smaller;	
 	float: left;
 }
