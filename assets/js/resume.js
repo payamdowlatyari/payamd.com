@@ -32,7 +32,7 @@ const scrollFunction = () => {
     document.getElementById("chev-up").style.display = "none";
   
   } else {
-    
+
     document.getElementById("sideNav").style.width = "18em";
     document.getElementById("chev-down").style.display = "none";
     document.getElementById("chev-up").style.display = "block";        

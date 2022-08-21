@@ -170,7 +170,7 @@ footer p {
 		}
 
 		#home-logo img{
-			width: 125px;
+			width: 120px;
 			height: auto;
 		}
 
@@ -279,6 +279,19 @@ background-size: cover;
 
 #home-text{
 	display: none;
+}
+
+#hide-diplay-link a{
+	display: none;
+}
+
+#display-hide-link a{
+	display: inline-block;
+	font-size: small;
+	vertical-align: top;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 #social-links{
@@ -1152,6 +1165,7 @@ background-size: cover;
 			width: 2250px;
 		} }
 
+
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
@@ -1165,6 +1179,16 @@ background-size: cover;
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+
+		/* Nav links	 */
+
+		#hide-diplay-link a{
+			display: inline;
+		}
+
+		#display-hide-link a{
+			display: none;
+		}
 
 		/* BG */
 
@@ -1263,7 +1287,11 @@ background-size: cover;
 
 			#header nav a:active {
 				font-size: 1em;
-			} }
+			} 
+		
+		
+
+		}
 
 /* Mobile (Portrait) */
 
