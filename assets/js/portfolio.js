@@ -42,7 +42,7 @@ const scrollFunction = () => {
     logo.style.display = "block";
     home.style.display = "none";
 
-    topNav.style.backgroundColor = "#0D1117";
+    topNav.style.backgroundColor = "#17202A";
 
     for(let i = 0; i < navLinks.length; i++)
         navLinks[i].style.color = "#ddd"

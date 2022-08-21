@@ -311,7 +311,7 @@ a:active,a:focus,a:hover{
 }
 
 #sideNav {
-    background-color: #0D1117 !important;
+    background-color: #212121 !important;
     max-width: 100vw;
     max-height: 100vh;
 }
@@ -590,7 +590,7 @@ hr{
     background-color: #000;;
     width: 100%;
     height: 100vh;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 #interests i{

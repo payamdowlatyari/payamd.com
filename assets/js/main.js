@@ -8,11 +8,14 @@ window.onload = () => { document.body.classList.remove('is-preload'); }
 window.ontouchmove = () => { return false; }
 window.onorientationchange = () => { document.body.scrollTop = 0; }
 
+const overlay2 = document.getElementById("overlay-2");
+
 const on = () => {
-	document.getElementById("overlay-2").style.display = "block";
+	overlay2.style.display = 'block';
 }
+
 const off = () => {
-	document.getElementById("overlay-2").style.display = "none";
+	overlay2.style.display = 'none';
 }
 
 // title animation first page

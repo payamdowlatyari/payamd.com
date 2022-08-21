@@ -338,12 +338,12 @@ background-size: cover;
 
 .nav-link a:hover{
 	color: #f3f5f8;
-	background: #242830;
-	opacity: 0.8;
+	background: #17202A;
+	opacity: 0.75;
 	transition: 0.5s;
 	font-weight: 500;
 	letter-spacing: 0.02em;
-	box-shadow: 1px 1px 10000px 10000px #242830;	 
+	box-shadow: 1px 1px 10000px 10000px #17202A;	 
 }
 
 .start-schedule a{
@@ -1717,7 +1717,7 @@ form{
     background-color: #fff;
     width: 100%;
     height: 100vh;
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .text-left{
