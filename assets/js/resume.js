@@ -16,8 +16,8 @@ anime.timeline({ loop: true })
     delay: 3000
   });
 
-document.getElementById("chev-up").style.display = "none";
-document.getElementById("sideNav").style.opacity = "1";
+// document.getElementById("chev-up").style.display = "none";
+// document.getElementById("sideNav").style.opacity = "1";
 
 window.onscroll = () => {
   scrollFunction()
@@ -25,16 +25,16 @@ window.onscroll = () => {
 
 const scrollFunction = () => {
 
-  if (document.body.scrollTop < 100 && document.documentElement.scrollTop < 100 ) {
+  if (document.body.scrollTop < 150 && document.documentElement.scrollTop < 150 ) {
 
-    document.getElementById("sideNav").style.width = "100vw";
-    document.getElementById("chev-down").style.display = "block";
-    document.getElementById("chev-up").style.display = "none";
+    // document.getElementById("chev-down").style.display = "block";
+    // document.getElementById("chev-down").style.visibility = "hidden";
+    // document.getElementById("chev-up").style.display = "none";
   
   } else {
-
-    document.getElementById("sideNav").style.width = "18em";
-    document.getElementById("chev-down").style.display = "none";
-    document.getElementById("chev-up").style.display = "block";        
+    
+    // document.getElementById("sideNav").style.width = "18em";
+    // document.getElementById("chev-down").style.display = "none";
+    // document.getElementById("chev-up").style.display = "block";        
   }
 }

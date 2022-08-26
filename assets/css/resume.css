@@ -1,7 +1,7 @@
 body{
     padding-top:10em;
-    background-color: #EAECEE !important;
-    color: #222; 
+    background-color: #5499C7 !important;
+    color: #17202A; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -28,8 +28,7 @@ body{
  
  @media (min-width:992px){
      body{
-         padding-top:0;
-         padding-left:18rem;
+         padding: 3em;
     }
 }
 
@@ -55,6 +54,7 @@ h1{
 }
 
 h2{
+    padding: 1em;
     font-family: 'Ubuntu', sans-serif; 
     color: #C0392B;
     opacity: 0.8; 
@@ -64,9 +64,10 @@ h2{
 }
 
 h3{
+    padding-left: 1em;
     opacity: 0.75;
     font-size:1em; 
-    line-height:2.5em;
+    line-height:2em;
     font-family: 'Ubuntu', sans-serif; 
 }
 
@@ -74,7 +75,7 @@ h3{
     margin-left: 2.5px;  
     font-weight:900;
     font-size:0.8em; 
-    color: #222;
+    color: #17202A;
     text-transform: uppercase;
 }
 
@@ -151,7 +152,6 @@ h3{
         -webkit-box-direction:normal;
         -ms-flex-direction:column;
         flex-direction:column;
-        width: 100%;
         min-height:100vh;  
         min-width: 18em;    
         transition: 0.75s;
@@ -207,16 +207,28 @@ h3{
 }
 
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}
+
+#about{
+    background-color: #F7DC6F;
+    box-shadow: none;
+}
+
 section.resume-section{
-    padding-top:5rem!important;
-    padding-bottom:3rem!important;
-    max-width:75rem;
+    padding-top:1em!important;
+    padding-bottom:2em!important;
+    background-color: #FDFEFE;
+    border-radius: 5px; 
+    margin: 10px;
 }
     
 section.resume-section .resume-item .resume-date{min-width:none}
 section.resume-section .resume-item { 
-    border-radius: 3px; 
-    margin: 5px;   
+    border-radius: 5px; 
+    background-color: #FDFEFE; 
+}
+
+.proj{
+    padding: 1em;
 }
 
 .resume-date {
@@ -243,7 +255,9 @@ section.resume-section .resume-item:hover {
 } 
 
 @media (min-width:768px){
-    section.resume-section{min-height:100vh}
+    section.resume-section{
+        min-height:max-content;
+    }
     section.resume-section 
     .resume-item 
     .resume-date{min-width:18em}
@@ -314,7 +328,7 @@ a:active,a:focus,a:hover{
 
 #sideNav {
     background-color: #212121 !important;
-    max-width: 100vw;
+    max-width: 18em;
     max-height: 100vh;
 }
 
@@ -333,6 +347,7 @@ a:active,a:focus,a:hover{
 }
 
 p{
+    padding-left: 1em;
      opacity: 0.8;
      font-size: 0.8em;
 	 font-family: 'Syne', sans-serif;
@@ -368,7 +383,7 @@ p{
     animation-duration: 3s;  
     animation-fill-mode: backwards;
     font-family: 'Ubuntu', sans-serif; 
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 .iama{
@@ -486,7 +501,16 @@ hr{
    font-size: 3em;
    padding: 10px;
    line-height: 1.5em;
+   border-radius: 3px;
+   
 }
+
+.skill-set i:hover{
+    transition: 0.75s;
+    background-color: #EBF5FB;
+
+}
+
 .skill-set .large{
     font-size: 3.5em;
 }
@@ -507,7 +531,6 @@ hr{
 .paper-details{
     padding-left: 15px;
     min-width: 50%;
-    max-width: 75%;
 }
 
 .link-item img{
@@ -606,4 +629,45 @@ hr{
 #o-page{
     color: #5499C7 !important;
     opacity: 0.7;
+}
+
+.fas{
+    color: #FDFEFE;
+    opacity: 0.6;
+    display: block;
+    font-size: 2em;
+    animation: chev-anim 10s ease-in-out 2s infinite normal forwards;
+
+}
+
+.fas:hover{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+@keyframes chev-anim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-2px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(2px);
+	}
+
+	80% {
+		transform: translateY(1.6px);
+	}
+
+	90% {
+		transform: translateY(-1.6px);
+	}
 }
