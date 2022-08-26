@@ -32,9 +32,23 @@ body{
     }
 }
 
-.nav-logo img {
+#payamd-logo{
+    text-align: end;
+}
+
+#payamd-logo img {
     width: 125px;
-    height: auto;
+    
+}
+
+#home-link {
+    display: none;
+    font-size: 1em;
+    padding: 0;
+}
+
+#home-link a{
+    padding: 0.3em;
 }
 
 h1,h2,h3,h4,h5,h6{    
@@ -54,12 +68,11 @@ h1{
 }
 
 h2{
-    padding: 1em;
+    padding: 0.75em;
     font-family: 'Ubuntu', sans-serif; 
-    color: #C0392B;
-    opacity: 0.8; 
+    color: #5499C7;
     font-weight: 900;
-    font-size:2.5em; 
+    font-size:2em; 
     text-transform: uppercase;
 }
 
@@ -67,8 +80,7 @@ h3{
     padding-left: 1em;
     opacity: 0.75;
     font-size:1em; 
-    line-height:2em;
-    font-family: 'Ubuntu', sans-serif; 
+    line-height:2.5em;
 }
 
 .subheading{
@@ -218,13 +230,15 @@ section.resume-section{
     padding-bottom:2em!important;
     background-color: #FDFEFE;
     border-radius: 5px; 
-    margin: 10px;
+    max-width: 992px;
+    margin: auto;
 }
     
 section.resume-section .resume-item .resume-date{min-width:none}
 section.resume-section .resume-item { 
     border-radius: 5px; 
-    background-color: #FDFEFE; 
+    background-color: #EBF5FB;
+    margin: 5px;
 }
 
 .proj{
@@ -232,31 +246,61 @@ section.resume-section .resume-item {
 }
 
 .resume-date {
-    color: #222;
     opacity: 0.5;
     z-index: 2;
+    padding: 1em;
 }
 
 section.resume-section .resume-item:hover {
-    transition: 1s;    
+    transition: 0.5s;    
+    box-shadow: 1px 1px 5px #D6DBDF;
 }
 
 .nav-item img{
     opacity: 0.6;
 }
 
+@media(max-width: 992px){ 
+    section.resume-section{
+        min-height:max-content;
+        margin: 10px;
+    }
+}
+
 @media(max-width: 520px){
+
+    #home-link {
+        display: block;
+        position: relative;
+    }
+
+    #payamd-logo{
+        display: none;
+    }
+
+    #small-portfolio{
+        display: none;
+    }
+
     .navbar {
         min-width: 100%!important; 
     }
+
     #sideNav .navbar-nav .nav-item .nav-link , .nav-logo, h2{ 
         text-align: center;
     }
+    section.resume-section{
+        min-height:max-content;
+        margin: 5px;
+    }
 } 
+
+
 
 @media (min-width:768px){
     section.resume-section{
         min-height:max-content;
+        margin: 10px;
     }
     section.resume-section 
     .resume-item 
@@ -264,7 +308,7 @@ section.resume-section .resume-item:hover {
 }
 
 @media (min-width:992px){
-    section.resume-section{padding-top:2rem!important;padding-bottom:2rem!important}
+    section.resume-section{padding-top:2rem!important;padding-bottom:2rem!important; margin: auto;} 
 }
 
 .bg-primary{  
@@ -275,8 +319,8 @@ section.resume-section .resume-item:hover {
 }
 
 .text-primary{ 
-    font-size: 0.9em;
-    color:#222!important; 
+    font-size: 0.85em;
+    color: #5499C7 !important;
     text-transform: capitalize; 
     text-decoration: none;
     padding: 10px;
@@ -356,25 +400,24 @@ p{
 .fullName{
    text-align: left;
    line-height: 1em;
-   color: #111;
+   color: #34495E;
    font-family: 'Ubuntu', sans-serif; 
    font-weight: 900;
    position: relative;
    animation-name: my-name;
    animation-duration: 3s;  
    animation-fill-mode: forwards;
-   padding-top: 0.5em;
 }
 
  @keyframes my-name {
     from {opacity: 0; font-size: 12em;}
-    to {opacity: 0.8; font-size: 5em;}
+    to {opacity: 1; font-size: 5em;}
 }
 
 .sub-name{
     text-align: left;
-    color: #17202A;
-    opacity: 0.75;
+    color: #5499C7;
+    opacity: 0.9;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 900;
@@ -383,7 +426,7 @@ p{
     animation-duration: 3s;  
     animation-fill-mode: backwards;
     font-family: 'Ubuntu', sans-serif; 
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .iama{
@@ -458,22 +501,17 @@ hr{
 }
 
 .member-link a{
-    padding: 4em;
-    opacity: 0.9;
-}
-
-.member-link a:hover {
+    padding: 5em;
     opacity: 1;
 }
 
 .member-link img{
     padding-top: 50px;
     padding-bottom: 25px;
-    opacity: 0.9;
 }
 
 .member-link img:hover{
-    opacity: 1; 
+    transform: scale(1.05);
     transition: 1s;
 }
 
@@ -502,12 +540,13 @@ hr{
    padding: 10px;
    line-height: 1.5em;
    border-radius: 3px;
+   background-color: #EBF5FB;
    
 }
 
 .skill-set i:hover{
-    transition: 0.75s;
-    background-color: #EBF5FB;
+    transition: 0.3s;
+    box-shadow: 1px 1px 1px #D6DBDF;
 
 }
 
@@ -575,7 +614,6 @@ hr{
 	}
   }
 
-
 .ml3 {
     font-weight: 900;
 }
@@ -583,11 +621,10 @@ hr{
  #small-portfolio{
     font-family: 'Ubuntu', sans-serif; 
      font-weight: 700;
-     color: #5499C7;
+     color: #17202A;
      text-transform: uppercase;
      letter-spacing: 0.1em;
      padding-left: 5px;
-     opacity: 0.9 !important;
  }
 
  #small-portfolio:hover{ 
@@ -597,26 +634,8 @@ hr{
 
  #resume-title{
     color: #C0392B;
-    opacity: 1;
+    opacity: 0.75;
  }
-
- .video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-}
-
-.color-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #000;;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.8;
-}
 
 #interests i{
     font-size: 1em;
@@ -624,11 +643,6 @@ hr{
 
 #chev-up{
     display: none;
-}
-
-#o-page{
-    color: #5499C7 !important;
-    opacity: 0.7;
 }
 
 .fas{
