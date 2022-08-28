@@ -245,6 +245,10 @@ section.resume-section .resume-item {
     padding: 1em;
 }
 
+/* .proj p{
+    line-height: 0.01em;
+} */
+
 .resume-date {
     opacity: 0.5;
     z-index: 2;
@@ -538,7 +542,7 @@ hr{
 .skill-set i{
    font-size: 3em;
    padding: 10px;
-   line-height: 1.5em;
+   line-height: 1.6em;
    border-radius: 3px;
    background-color: #EBF5FB;
    
@@ -559,12 +563,15 @@ hr{
 }
 
 .copyright-link{ 
+    padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Ubuntu', sans-serif; 
+    color: #17202A;
 }
 
 .copyright-link a {
     text-transform: lowercase;
+    color: #fff;
 }
 
 .paper-details{
