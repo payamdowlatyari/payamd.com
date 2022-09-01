@@ -134,99 +134,9 @@ h3{
     transition: .5s; 
 } 
 
-/* #sideNav .navbar-nav .nav-item .nav-link{
-     opacity: 1;
-     font-weight:500;
-     letter-spacing: 0.075em;
-     text-transform:uppercase;    
-     padding-left: 2px;
-}
-
-#sideNav .navbar-toggler{
-    border: none;
-}
-
-#sideNav .navbar-toggler:focus{
-    color:#a1a9b0;   
-    opacity: 1;
-}
-
-@media (min-width:992px){
-    #sideNav{
-        text-align:center;
-        position:fixed;
-        top:0;
-        left:0;
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        min-height:100vh;  
-        min-width: 18em;    
-        transition: 0.75s;
-}
-
-#sideNav .navbar-nav .nav-item .nav-link:hover{
-     padding-left: 5px; 
-     transition: 0.75s;
-}
-    
-#sideNav .navbar-nav .nav-item .nav-link:focus{ 
-        color: #C0392B;
-        opacity: 0.8;
-}
-
-#sideNav .navbar-brand{
-     display:-webkit-box;
-     display:-ms-flexbox;
-     display:flex;
-     margin:auto auto 0;
-     padding:0.5rem;
-}
-     
-#sideNav .navbar-brand .img-profile{
-    max-width:9rem;
-    max-height:9rem;
-    border: 0.2em solid rgba(255,255,255,0.3);
-}
-    
-#sideNav .navbar-collapse{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:start;
-    -ms-flex-align:start;
-    align-items:flex-start;
-    -webkit-box-flex:0;
-    -ms-flex-positive:0;
-    flex-grow:0;
-    margin-bottom:auto;
-}
-
-#sideNav .navbar-collapse .navbar-nav{
-     -webkit-box-orient:vertical;
-     -webkit-box-direction:normal;
-     -ms-flex-direction:column;
-     flex-direction:column;
-     width:100%;
-}
-     
-#sideNav .navbar-collapse .navbar-nav .nav-item{
-    display:block;
-} 
-
-#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}
-}
-*/
-
 .nav-link{display:block; padding-top: 2em; padding-bottom: 2em;}
 
 section.resume-section{
-    /* padding-top:1em!important; */
-    /* padding-bottom:2em!important; */
     background-color: #FDFEFE;
     border-radius: 5px; 
     max-width: 992px;
@@ -353,41 +263,6 @@ a:active,a:focus,a:hover{
      font-size: 0.9em;
      opacity: 0.8;
 }
-
-/* #sideNav .navbar-nav .nav-item .nav-link{
-     font-family: 'Ubuntu', sans-serif; 
-     color: #a1a9b0;   
-     font-size: 0.9em;
-     line-height: 0.3em;
-     opacity: 0.75; 
-}
-
-#sideNav .navbar-nav .nav-item .nav-link:hover{
-    color: #a1a9b0;
-    padding-left: 3px;
-    opacity: 1;
-    transition: 0.5s;
-}
-
-#sideNav {
-    background-color: #212121 !important;
-    max-width: 18em;
-    max-height: 100vh;
-} */
-
-/* .d-block{
-    font-family: 'Ubuntu', sans-serif; 
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
-    color: #a1a9b0;
-}
-
-.nav-col{
-     color: #a1a9b0;
-     border: none;
-} */
 
 p{
     padding-left: 1em;
@@ -719,6 +594,7 @@ hr{
   .scrolled.slide-right {
     animation: slide-in-right 1s ease-in-out both;
   }
+
   
   @keyframes slide-in-left {
     0% {
@@ -767,3 +643,96 @@ hr{
       opacity: 1;
     }
   }
+
+  .scrolled.bounce-in {
+    animation: bounce-in-top 1s ease 0s 1 normal forwards;
+  }
+
+  @keyframes bounce-in-top {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+
+.scrolled.scale-in-back{
+    animation: scale-in-bck 1s ease 0s 1 normal forwards;
+}
+
+@keyframes scale-in-bck {
+	0% {
+		transform: scale(2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.scrolled.scale-in-forward{
+    animation: scale-in-fwd 2s ease 0s 1 normal forwards;
+}
+
+@keyframes scale-in-fwd {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.scrolled.swirl-in-fwd {
+    animation: swirl-in 1s ease 0s 1 normal forwards;
+}
+
+@keyframes swirl-in {
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
+}
