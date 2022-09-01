@@ -221,8 +221,8 @@ h4 {
 
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}
 section.resume-section{
-    padding-top:7rem!important;
-    padding-bottom:5rem!important;
+    padding-top:8rem!important;
+    padding-bottom:4rem!important;
     max-width:75rem;
 }
     
@@ -233,14 +233,26 @@ section.resume-section .resume-item {
 }
 
 section.resume-section .resume-item:hover {
-    box-shadow: 0.5px 0px 3px 0px #a1a9b0; 
+    box-shadow: 0.5px 0px 3px 0px #FDFEFE; 
     transition: 0.5s;
     
 }
 
-@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
+@media (min-width:768px){
+    section.resume-section{
+        min-height:100vh;
+    }
+    section.resume-section .resume-item .resume-date{
+        min-width:18rem;
+    }
+}
 
-@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
+@media (min-width:992px){
+    section.resume-section{
+        padding-top:3rem!important;
+        padding-bottom:3rem!important;
+    }
+}
 
 .bg-primary{  
     background-color: #242830 !important;;

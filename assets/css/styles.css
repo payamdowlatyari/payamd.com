@@ -423,18 +423,6 @@ Hero
 	color: #D7DBDD; 
 }
 
-/* @keyframes slidein {
-	0% {
-	  opacity: 0.4;
-	}
-	50% {
-	  opacity: 0.7;
-	}
-	100% {
-	  opacity: 1;
-	}
-} */
-
 @keyframes chev-anim {
 	0%,
 	100% {
@@ -548,7 +536,7 @@ Features
 }
 
 .features-wrapper .service-box:hover {
-	transition: 1s; 
+	transition: 0.5s; 
 	background-color: #2E4053; 
  }
 

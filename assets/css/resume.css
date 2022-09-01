@@ -134,7 +134,7 @@ h3{
     transition: .5s; 
 } 
 
-#sideNav .navbar-nav .nav-item .nav-link{
+/* #sideNav .navbar-nav .nav-item .nav-link{
      opacity: 1;
      font-weight:500;
      letter-spacing: 0.075em;
@@ -216,18 +216,17 @@ h3{
      
 #sideNav .navbar-collapse .navbar-nav .nav-item{
     display:block;
-}
+} 
 
-#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}
-
-#about{
-    background-color: #F7DC6F;
-    box-shadow: none;
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}
 }
+*/
+
+.nav-link{display:block; padding-top: 2em; padding-bottom: 2em;}
 
 section.resume-section{
-    padding-top:1em!important;
-    padding-bottom:2em!important;
+    /* padding-top:1em!important; */
+    /* padding-bottom:2em!important; */
     background-color: #FDFEFE;
     border-radius: 5px; 
     max-width: 992px;
@@ -302,18 +301,18 @@ section.resume-section .resume-item:hover {
         min-height:max-content;
         margin: 10px;
     }
-    section.resume-section 
+    /* section.resume-section 
     .resume-item 
-    .resume-date{min-width:18em}
+    .resume-date{min-width:18em} */
 }
 
 @media (min-width:992px){
-    section.resume-section{padding-top:2rem!important;padding-bottom:2rem!important; margin: auto;} 
+    section.resume-section{padding-top:2em!important;padding-bottom:3em!important; margin: auto;} 
 }
 
 .bg-primary{  
     background-color: transparent !important;
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
 }
@@ -327,7 +326,7 @@ section.resume-section .resume-item:hover {
 }
 
 a{
-    color:#222; 
+    color:#17202A; 
     font-weight: 500;
     opacity: 0.8; 
     text-decoration: none; 
@@ -335,7 +334,7 @@ a{
 }
 
 a:active,a:focus,a:hover{ 
-    color:#222; 
+    color:#17202A; 
     opacity: 1;
     text-emphasis: none; 
     text-decoration: none; 
@@ -355,7 +354,7 @@ a:active,a:focus,a:hover{
      opacity: 0.8;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link{
+/* #sideNav .navbar-nav .nav-item .nav-link{
      font-family: 'Ubuntu', sans-serif; 
      color: #a1a9b0;   
      font-size: 0.9em;
@@ -374,9 +373,9 @@ a:active,a:focus,a:hover{
     background-color: #212121 !important;
     max-width: 18em;
     max-height: 100vh;
-}
+} */
 
-.d-block{
+/* .d-block{
     font-family: 'Ubuntu', sans-serif; 
     letter-spacing: 0.1rem;
     text-transform: uppercase;
@@ -388,7 +387,7 @@ a:active,a:focus,a:hover{
 .nav-col{
      color: #a1a9b0;
      border: none;
-}
+} */
 
 p{
     padding-left: 1em;
@@ -410,7 +409,7 @@ p{
 }
 
  @keyframes my-name {
-    from {opacity: 0; font-size: 12em;}
+    from {opacity: 0; font-size: 20em;}
     to {opacity: 1; font-size: 5em;}
 }
 
@@ -439,7 +438,7 @@ p{
 }
 
 .resume-content {
-     padding: 10px;
+     padding: 20px;
 }
 
 .school-description{
@@ -688,3 +687,83 @@ hr{
 		transform: translateY(-1.6px);
 	}
 }
+
+#about{
+    background-color: #F7DC6F;
+    box-shadow: none;
+}
+
+  /* Styling scrollable elements */
+  
+  .scroll-element {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .scroll-element.scrolled {
+    opacity: 1;
+  }
+  
+  .scrolled.fade-in {
+    animation: fade-in 1s ease-in-out both;
+  }
+  
+  .scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+  
+  .scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+  
+  .scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+  
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-500px);
+      transform: translateX(-500px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(500px);
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(200px);
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

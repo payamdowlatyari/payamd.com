@@ -16,22 +16,44 @@ anime.timeline({ loop: true })
     delay: 3000
   });
 
-// window.onscroll = () => {
-//   scrollFunction()
-// };
 
-// const scrollFunction = () => {
+  const scrollElements = document.querySelectorAll(".scroll-element");
 
-//   if (document.body.scrollTop < 150 && document.documentElement.scrollTop < 150 ) {
-
-//     // document.getElementById("chev-down").style.display = "block";
-//     // document.getElementById("chev-down").style.visibility = "hidden";
-//     // document.getElementById("chev-up").style.display = "none";
+  const elementInView = (el, dividend = 1) => {
+    const elementTop = el.getBoundingClientRect().top;
   
-//   } else {
-    
-//     // document.getElementById("sideNav").style.width = "18em";
-//     // document.getElementById("chev-down").style.display = "none";
-//     // document.getElementById("chev-up").style.display = "block";        
-//   }
-// }
+    return (
+      elementTop <=
+      (window.innerHeight || document.documentElement.clientHeight) / dividend
+    );
+  };
+  
+  const elementOutofView = (el) => {
+    const elementTop = el.getBoundingClientRect().top;
+  
+    return (
+      elementTop > (window.innerHeight || document.documentElement.clientHeight)
+    );
+  };
+  
+  const displayScrollElement = (element) => {
+    element.classList.add("scrolled");
+  };
+  
+  const hideScrollElement = (element) => {
+    element.classList.remove("scrolled");
+  };
+  
+  const handleScrollAnimation = () => {
+    scrollElements.forEach((el) => {
+      if (elementInView(el, 1)) {
+        displayScrollElement(el);
+      } else if (elementOutofView(el)) {
+        hideScrollElement(el)
+      }
+    })
+  }
+  
+  window.addEventListener("scroll", () => { 
+    handleScrollAnimation();
+  });
