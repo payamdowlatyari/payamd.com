@@ -1,6 +1,6 @@
 body{
     padding-top:10em;
-    background-color: #17202A !important;
+    background-color: #34495E !important;
     color: #17202A; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,6 @@ body{
 #about{
     background-color: #f8e16c;
     box-shadow: none;
-    
 }
 
 #payamd-logo{
@@ -87,6 +86,7 @@ h3{
     opacity: 0.75;
     font-size:1em; 
     line-height:2.5em;
+    text-transform: uppercase;
 }
 
 .subheading{
@@ -720,14 +720,30 @@ hr{
 	}
 }
 
-.scrolled.swirl-in-fwd {
-    animation: swirl-in 1s ease 0s 1 normal forwards;
+.scrolled.swirl-in-forward {
+    animation: swirl-in-fwd 1s ease 0s 1 normal forwards;
 }
 
-@keyframes swirl-in {
+@keyframes swirl-in-fwd {
 	0% {
 		opacity: 0;
 		transform: rotate(-540deg) scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
+}
+
+.scrolled.swirl-in-back {
+    animation: swirl-in-bck 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes swirl-in-bck {
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(2);
 	}
 
 	100% {
