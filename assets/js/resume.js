@@ -24,7 +24,7 @@ anime.timeline({ loop: true })
 
     return (
       elementTop <=
-      (window.innerHeight || document.documentElement.clientHeight) / dividend
+      (window.innerHeight || (document.documentElement.clientHeight) / dividend) 
     );
   };
   
@@ -51,7 +51,7 @@ anime.timeline({ loop: true })
       } else if (elementOutofView(el)) {
         hideScrollElement(el)
       }
-    })
+    });
   }
   
   window.addEventListener("scroll", () => { 

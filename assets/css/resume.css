@@ -1,6 +1,6 @@
 body{
     padding-top:10em;
-    background-color: #5499C7 !important;
+    background-color: #17202A !important;
     color: #17202A; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,6 +30,12 @@ body{
      body{
          padding: 3em;
     }
+}
+
+#about{
+    background-color: #f8e16c;
+    box-shadow: none;
+    
 }
 
 #payamd-logo{
@@ -70,7 +76,7 @@ h1{
 h2{
     padding: 0.75em;
     font-family: 'Ubuntu', sans-serif; 
-    color: #5499C7;
+    color: #30638e;
     font-weight: 900;
     font-size:2em; 
     text-transform: uppercase;
@@ -211,9 +217,7 @@ section.resume-section .resume-item:hover {
         min-height:max-content;
         margin: 10px;
     }
-    /* section.resume-section 
-    .resume-item 
-    .resume-date{min-width:18em} */
+
 }
 
 @media (min-width:992px){
@@ -290,7 +294,7 @@ p{
 
 .sub-name{
     text-align: left;
-    color: #5499C7;
+    color: #30638e;
     opacity: 0.9;
     font-style: normal;
     text-transform: uppercase;
@@ -436,12 +440,12 @@ hr{
     padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Ubuntu', sans-serif; 
-    color: #17202A;
+    color: #D6DBDF;
 }
 
 .copyright-link a {
     text-transform: lowercase;
-    color: #fff;
+    color: #FDFEFE;
 }
 
 .paper-details{
@@ -563,11 +567,6 @@ hr{
 	}
 }
 
-#about{
-    background-color: #F7DC6F;
-    box-shadow: none;
-}
-
   /* Styling scrollable elements */
   
   .scroll-element {
@@ -580,11 +579,11 @@ hr{
   }
   
   .scrolled.fade-in {
-    animation: fade-in 1s ease-in-out both;
+    animation: fade-in 2s ease-in-out both;
   }
   
   .scrolled.fade-in-bottom {
-    animation: fade-in-bottom 1s ease-in-out both;
+    animation: fade-in-bottom 2s ease-in-out both;
   }
   
   .scrolled.slide-left {
