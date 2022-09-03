@@ -77,7 +77,7 @@ input, select, textarea {
 
 footer p {
 	padding: 10px;
-   opacity: 0.75;
+   opacity: 0.8;
 }
 
 /* Basic */
@@ -91,7 +91,7 @@ footer p {
 	}
 
 	body {
-		background: #f3f5f8;
+		background: #fff;
 		overflow: hidden;
 	}
 
@@ -107,7 +107,7 @@ footer p {
 		}
 
 	body, input, select, textarea {
-		color: #f3f5f8;
+		color: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 500 !important;
@@ -120,8 +120,8 @@ footer p {
 		-webkit-transition: border-color 0.5s ease-in-out;
 		-ms-transition: border-color 0.5s ease-in-out;
 		transition: border-color 0.5s ease-in-out;
-		color: #f3f5f8;
-		opacity: 0.75;
+		color: #fff;
+		opacity: 0.85;
 		text-decoration: none ;
 		outline: 0;
 		padding-left: 5px;
@@ -130,7 +130,7 @@ footer p {
 
 		a:hover {
 			border-color: transparent;		
-			color: #f3f5f8;
+			color: #fff;
 			text-decoration: none;
 			opacity: 1;
 			transition: 1s;
@@ -272,7 +272,7 @@ background-size: cover;
   
 #title{
 	font-family: 'Ubuntu', sans-serif;
-	color: #f3f5f8;
+	color: #fff;
 	text-transform: uppercase;
 	text-align: justify;
 }
@@ -318,12 +318,11 @@ background-size: cover;
 	text-align: left;
 	padding: 1em;
 	font-size: 5em;
-	color: #3dc9b3;
 }
 
 .card { background: #242830; border: none; }
 .card img { max-width: 100%; width: 100px; height: 100px;}
-.card:hover { opacity: 0.5;}
+.card:hover { opacity: 0.75;}
 .links{
 	margin: 0 auto;
 	padding-top: 15vh;
@@ -346,16 +345,16 @@ background-size: cover;
 
 .nav-link a{
 	color: #242830;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 .nav-link a:hover{
-	color: #f3f5f8;
-	background: #222;
+	color: #fff;
+	background: #293241;
 	transition: 0.3s;
 	font-weight: 500;
 	letter-spacing: 0.02em;
-	box-shadow: 1px 1px 10000px 10000px #222;	 
+	box-shadow: 1px 1px 10000px 10000px #293241;	 
 }
 
 .start-schedule a{
@@ -364,7 +363,7 @@ background-size: cover;
 	font-size: 1.4em;
 	font-weight:500;
 	color: #242830;
-	opacity: 0.8;
+	opacity: 0.9;
 	line-height: 2em;
 	border-radius: 5px;
 	padding-left: 1em;
@@ -400,11 +399,11 @@ background-size: cover;
 }
 
 .top-page i {
-	color: #a1a9b0;
+	color: #dee2e6;
 }
 
 .top-page i:hover {
-	color: #f3f5f8;
+	color: #dee2e6;
 	transition: 0.5s;
 }
 
@@ -822,8 +821,8 @@ background-size: cover;
 			font-weight: 100;
 			letter-spacing: -0.025em;
 			line-height: 1em;
-			color: #f3f5f8;
-			opacity: 0.65;
+			color: #fff;
+			opacity: 0.85;
 			font-family: 'Ubuntu', sans-serif;
 			text-transform: uppercase;
 		}
@@ -833,7 +832,7 @@ background-size: cover;
 			font-size: 2.75em;
 			font-weight: 100;
 			margin: 0.25em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: 0.85;
 		}
 
 		#header nav {
@@ -955,7 +954,7 @@ background-size: cover;
 					text-align: center;
 					top: 0;
 					width: 2em;
-					opacity: 0.75;
+					opacity: 0.85;
 				}
 
 				#header nav a:hover {
@@ -964,7 +963,7 @@ background-size: cover;
 
 					#header nav a:hover:before {
 						background-color : transparent;
-						color: #f3f5f8;
+						color: #fff;
 					}
 
 				#header nav a:active {
@@ -974,7 +973,7 @@ background-size: cover;
 
 					#header nav a:active:before {
 						background-color: #242830;
-						color: #f3f5f8;
+						color: #fff;
 					}
 
 				#header nav a span {
@@ -1449,14 +1448,14 @@ background-size: cover;
 	text-transform: uppercase;
 	font-family: 'Ubuntu', sans-serif;
 	padding-bottom: 0.5em;
-	opacity: 0.6;
+	opacity: 0.75;
 }
 
 #about-sec p{
 	font-weight: 100;
-	color: #f3f5f8;
+	color: #fff;
     font-size: small;
-	opacity: 0.6;
+	opacity: 0.75;
 	line-height: 1.5em;
 	font-family: 'Syne', sans-serif;
 }
@@ -1472,7 +1471,7 @@ background-size: cover;
 }
 
 .contact-form h1{
-	opacity: 0.75;
+	opacity: 0.9;
 }
 
 #about-sec a {
@@ -1480,7 +1479,7 @@ background-size: cover;
     -webkit-transition: border-color 0.5s ease-in-out;
     -ms-transition: border-color 0.5s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-	color: #f3f5f8;
+	color: #fff;
     text-decoration: none ;
     outline: 0;
     padding-left: 5px;
@@ -1509,8 +1508,8 @@ form{
 }
 
 .sub-btn{
-	background-color: #E59866;
-    opacity: 0.75;
+	background-color: #ffa69e;
+    opacity: 0.85;
     color: #000;
     min-width: 100%;
     margin: 5px;
@@ -1521,15 +1520,15 @@ form{
 }
 
 .sub-btn:hover{	
-    background-color: #E59866;
-	opacity: 0.95;
+    background-color: #ffa69e;
+	opacity: 0.99;
 	color: #000;
     transition: 0.75s;
 }
 
 .res-btn{
-	background-color: #5DADE2;
-	opacity: 0.75;
+	background-color: #e5e5e5;
+	opacity: 0.8;
     color: #000;
 	min-width: 100%;
     margin: 5px;
@@ -1540,15 +1539,15 @@ form{
 }
 
 .res-btn:hover{	
-	background-color: #5DADE2;
-    opacity: 0.95;
+	background-color: #e5e5e5;
+    opacity: 0.99;
 	color: #000;
     transition: 0.75s;
 }
 
 #about-link a{
-	color: #f3f5f8;
-	opacity: 0.75;
+	color: #fff;
+	opacity: 0.85;
 	font-weight: 900;
 	padding: 0.2em;
 	text-transform: uppercase;
@@ -1556,7 +1555,7 @@ form{
 }
 
 #about-link a:hover{
-	color: #f3f5f8;
+	color: #fff;
 	padding: 0.2em;
 	transition: 0.75s;
 	opacity: 1;
@@ -1569,7 +1568,7 @@ form{
 }
  
 .contact-form  .calendly a{
-	opacity: 0.4;
+	opacity: 0.6;
 	font-size: 0.8em;	
 	font-family: 'Ubuntu', sans-serif;
 	margin: 0.5em;
@@ -1647,7 +1646,7 @@ form{
 
 @-webkit-keyframes tracking-out-expand {
 	0% {
-	  opacity: 0.75;
+	  opacity: 0.85;
 	}
 	60% {
 	  opacity: 0.5;
@@ -1659,7 +1658,7 @@ form{
   }
   @keyframes tracking-out-expand {
 	0% {
-		opacity: 0.75;
+		opacity: 0.85;
 	  }
 	  60% {
 		opacity: 0.5;
@@ -1675,7 +1674,7 @@ form{
 	letter-spacing: 0.08em;
 	font-weight: 900;
 	padding-bottom: 0.75em;
-	opacity: 0.75;
+	opacity: 0.9;
 	text-align: left;
   }
   .ml4 .letters {
@@ -1696,7 +1695,7 @@ form{
   }
 
   .contact-form .mini-title{
-	opacity: 0.5;
+	opacity: 0.8;
 	font-size: 0.9em;	
 	font-family: 'Ubuntu', sans-serif;
   }
@@ -1732,9 +1731,22 @@ form{
     top: 0;
     left: 0;
     width: 100%;
-	background-color: #222;
-	opacity: 0.9;
 	height: 100vh;
+}
+
+#home-bg {
+	background-color: #293241;
+	opacity: 0.95;
+}
+
+#about-bg {
+	background-color: #432534;
+	opacity: 0.95;
+}
+
+#contact-bg {
+	background-color: #223843;
+	opacity: 0.95;
 }
 
 .color-overlay2{
@@ -1752,20 +1764,7 @@ form{
 }
 
 .license-text{
-	color: #f3f5f8;
-	opacity: 0.5;
-}
-
-#bg-logo{
-	background-attachment: fixed;
-	opacity: 0.5;
-	text-align: right;
-	padding-right: 30px;
-
-}
-
-#bg-logo:hover{
-	transition: 1s;
+	color: #fff;
 	opacity: 0.5;
 }
 
@@ -1776,19 +1775,19 @@ form{
 }
 
 .letters-1{
-	color: #3dc9b3;
+	color: #ee6c4d;
 }
 
 .letters-2{
-	color: gold;
+	color: #2ec4b6;
 }
 
 .letters-3{
-	color: lightskyblue;
+	color: #ffd500;
 }
 
 .letters-4{
-	color: darkorange;
+	color: #4ba3c3;
 }
 
 #iam{
@@ -1803,7 +1802,7 @@ form{
 }
 
 #dot{
-	opacity: 0.75;
+	opacity: 0.9;
 	font-size: smaller;	
 	float: left;
 }

@@ -20,7 +20,7 @@ const off = () => {
 
 // title animation first page
 var ml4 = {};
-ml4.opacityIn = [0, 0.75];
+ml4.opacityIn = [0, 0.9];
 ml4.scaleIn = [0.99, 1];
 ml4.scaleOut = 1;
 ml4.durationIn = 2000;

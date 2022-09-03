@@ -92,7 +92,7 @@ sub { bottom: -0.25em; }
 	letter-spacing: 0.2em;
 	font-weight: 700;
 	padding-left: 20px;
-	color: #f8e16c;
+	color: #98c1d9;
 	opacity: 0.85;
 }
 
@@ -100,8 +100,6 @@ sub { bottom: -0.25em; }
 	opacity: 1;
 	transition: 1s;
 }
-
-
 
 /* ==========================================================================
 Lists
@@ -177,15 +175,15 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Global Styles
 ========================================================================== */
-a { color: #f3f5f8; opacity: 1; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;  word-spacing: 1px;}
+a { color: #fff; opacity: 0.85; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;  word-spacing: 1px;}
 
-a:hover, a:focus { color: #f8e16c; text-decoration: none; }
+a:hover, a:focus { color: #fff; text-decoration: none; opacity: 1;}
 
 p { color: #E5E7E9; opacity: 1; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 
 h2 { 
 	font-size: 16px; 
-	color: #5499C7; 
+	color: #98c1d9; 
 	text-transform: uppercase; 
 	font-weight: bold; 
 }
@@ -194,11 +192,11 @@ h2 {
 
 .light-bg { background-color: #fff; }
 
-.dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
+.dark-box { background: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
 
-.light-box { background-color: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 10px 0; min-height: 15em;}
+.light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 10px 0; min-height: 15em;}
 
-.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #f3f5f8; -moz-box-shadow: 0px 3px 0px 0px #f3f5f8; box-shadow: 0px 3px 0px 0px #f3f5f8; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #fff; -moz-box-shadow: 0px 3px 0px 0px #fff; box-shadow: 0px 3px 0px 0px #fff; }
 
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; border-radius: 5px;}
 
@@ -214,7 +212,7 @@ h2 {
 	padding-left: 5px;
 	padding-right: 5px;  
 	font-size: 2em; 
-	color: #f3f5f8; 
+	color: #fff; 
 	font-family: 'Syne', sans-serif;
 	line-height: 0.8em;
 }
@@ -257,13 +255,13 @@ h2 {
 }
 
 #portfolio-title{
-	color: #5499C7;
+	color: #f08080;
 	line-height: 1.05em;
 	animation: tracking-in-contract 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 @keyframes tracking-in-contract {
 	0% {
-	  letter-spacing: 1em;
+	  letter-spacing: 0.9em;
 	  opacity: 0;
 	}
 	40% {
@@ -295,7 +293,7 @@ nav {
 
 nav a {
 	 text-transform: uppercase; 
-	 color:#f3f5f8; 
+	 color:#fff; 
 	 display: inline-block; 
 	 transition: all 0.5s ease; 
 	 -moz-transition: all 0.5s ease; 
@@ -305,14 +303,14 @@ nav a {
 	 opacity: 0.8;
 }
 
-nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s; opacity: 1;} 
+nav a:hover, nav a:focus { text-decoration: none; color: #fff; transition: 1s; opacity: 1;} 
 
 #nav-toggle { position: absolute; right: 5px; top: 0; border: none;}
 
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; border: none;}
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; 
-	height: 5px; width: 35px; background: #f3f5f8; position: absolute;  display: block; content: '';}
+	height: 5px; width: 35px; background: #fff; position: absolute;  display: block; content: '';}
 
 #nav-toggle span:before { top: -10px; }
 
@@ -343,7 +341,7 @@ nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s
 	font-size: 2em; 
 	padding-left:0.1em ; 
 	padding-right: 0.1em; 
-	color: #f3f5f8; 
+	color: #fff; 
 	opacity: 0.75;
 }
 
@@ -358,7 +356,7 @@ nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s
 
 .pull a:hover {
 	opacity: 1; 
-	color: #f3f5f8; 
+	color: #fff; 
 	transition: 1s;
 }
 /* ==========================================================================
@@ -397,18 +395,9 @@ Hero
 
 .hero h1 { letter-spacing: 6px; margin: 5px; font-weight: 900;}
 
-.hero h1 span { color: #f3f5f8; display: inline-block; }
+.hero h1 span { color: #fff; display: inline-block; }
 
 .hero p { opacity: 1;  font-size: 1em; font-weight: 500;  line-height: 2em;  }
-
-.learn-more-btn { background: #f3f5f8; color: #17202A; opacity: 0.5; padding: 5px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; 
-	color: #17202A; text-transform: uppercase; letter-spacing: 0.3em; display: inline-block;  font-weight: 900; margin-top: 5px; width: 15em;}
-
-.learn-more-btn:hover, .learn-more-btn:focus { background: #3dc9b3; color: #17202A; opacity: 0.75;}
-
-.btn-up-down { background: #17202A; padding: 10px 20px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin: 0 0 0; font-weight: bold; }
-
-.btn-up-down:hover, .btn-up-down:focus { background: rgb(212, 212, 212); color: rgba(20, 20, 20, 0.699); }
 
 .arrow-down i{
 	font-size: 1.5em;
@@ -474,7 +463,7 @@ Hero
 }
 
 .copy-right{
-	color: #f3f5f8;
+	color: #fff;
 	opacity: 0.75;
 }
 
@@ -497,7 +486,7 @@ Intro
 
 h1.arrow { font-size: 18px; 
 	text-transform: uppercase; 
-	color: #5499C7; 
+	color: #f08080; 
 	letter-spacing: 1px; 
 	padding-bottom: 1em; 
 	font-weight: 900; 
@@ -505,16 +494,11 @@ h1.arrow { font-size: 18px;
 }
 .next-section{
 	font-family: 'Ubuntu', sans-serif; 
-	color: #a1a9b0;
+	color: #D7DBDD;
 	text-transform: uppercase;
 	opacity: 0.85;
 }
 
-.freelance-badge{ margin: 50px;}
-
-.freelance-badge a{ padding: 0px; margin: 15px;}
-
-.freelance-badge img {margin-bottom: 30px;} 
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -541,42 +525,12 @@ Features
 	max-width: 100%; 
 	border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; 
 	display: block; 
-	color: #fff; 
+	color: #98c1d9; 
 	font-size: 60px; 
 	text-align: center; 
 	position: relative; 
 	margin: 0 auto; 
 }
-
-/* ==========================================================================
-blog Section
-========================================================================== */
-/* ==========================================================================
-Swag
-========================================================================== */
-	
-
-@keyframes qt-think{		
-		0% {
-			opacity: 0.75;	
-		}	
-		50% {
-			opacity: 0.25;	
-		}
-		100% {
-		  
-			opacity: 0.75;	
-		}
-	  }
-
-.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 8px; opacity: 0.7; }
-
-.swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
-
-.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; 
-	-moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; 
-	background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; 
-	color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 
 /* ==========================================================================
 Portfolio
@@ -607,13 +561,13 @@ Portfolio
 	transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
 
 a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; 
-	width: 45px; height: 45px; font-size: 20px; font-weight: 900; color: #f3f5f8; 
+	width: 45px; height: 45px; font-size: 20px; font-weight: 900; color: #fff; 
 	line-height: 45px; text-align: center; cursor: pointer; }
 
 a.close-overlay.hidden { display: none; }
 
 a.expand { display: block; position: absolute; z-index: 100; text-align: center; 
-	color: #f3f5f8; font-weight: 600; font-size: 16px; text-transform: uppercase; line-height: 30px; opacity: 0.75;}
+	color: #fff; font-weight: 600; font-size: 16px; text-transform: uppercase; line-height: 30px; opacity: 0.75;}
 
 .overlay-effect .img i { font-size: 1em; }
 
@@ -644,33 +598,15 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
 
-  
 /* ==========================================================================
-Subscribe
+Bottom Links
 ========================================================================== */
-.subscribe { background: url('') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
-
-.subscribe h1 { color: #fff; margin-bottom: 40px; }
-
-.subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
-
-.subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
-
-.subscribe input[type=submit] { background: rgba(61, 201, 179, 0.5); border: solid 1px rgba(61, 201, 179, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-
-.subscribe input[type=submit]:hover { background: rgba(61, 201, 179, 1); border: solid 1px rgba(61, 201, 179, 1); color: #fff; }
-/* ==========================================================================
-CTA
-========================================================================== */
-.ignite-cta { 
-	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
-	background-size: cover; padding-bottom: 10em; background-attachment: fixed;}
 
 .sch-meeting h1{
 	padding-top: 2em;
 	font-size: 1em;
 	letter-spacing: 0.1em;
-	color: #f3f5f8;
+	color: #fff;
 	opacity: 0.65;
 }
 
@@ -694,57 +630,13 @@ CTA
 	font-weight: 900;
 }
 
-.ignite-cta h1 span {font-size: 0.7em; letter-spacing: 0.5em;} 
+.sch-meeting p a:hover {
+	opacity: 1;
+}
 
-.ignite-cta h1 { color: #f3f5f8; text-transform: uppercase; padding-bottom: 5px; opacity: 0.8;}
+.link-up-down a{color: #fff; opacity: 0.85;}
+.link-up-down a:hover{color: #fff; transition: 0.5s; opacity: 1;}
 
-.ignite-btn { display: inline-block; padding: 15px 20px; color: #fff; 
-	border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px;}
-
-.ignite-btn:hover, .ignite-btn:focus { color: #3dc9b3; border: solid 1px #3dc9b3; transition: 0.5s;}
-/* ==========================================================================
-Team
-========================================================================== */
-.team img { margin-bottom: 40px; }
-ul.social-buttons { list-style: none; margin: 0; padding: 0; }
-ul.social-buttons li { display: inline-block; margin-right: 5px; }
-ul.social-buttons li:last-child { margin-right: 0; }
-.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; 
-	background: #17202A; display: inline-block; color: #f3f5f8; font-size: 17px; line-height: 40px; text-align: center; background-attachment: fixed; opacity: 0.5;}
-.social-btn:hover, .social-btn:focus { color: #f3f5f8;  opacity: 1;}
-.social { margin-top: 15px }
-/* ==========================================================================
-Memberships
-========================================================================== */
-.membership{ 
-	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; 
-	padding-bottom: 5em; background-attachment: fixed; min-height:  50vh; }
-.mem-icon{ margin: auto; padding: 20px;}
-.buttom-page a{ padding: 30px; margin-bottom: 50px; margin-top: 50px;}
-.buttom-page img{ margin-bottom: 20px; margin-top: 20px;}
-.link-up-down a{color: #f0f2f4; }
-.link-up-down a:hover{color: #3dc9b3; transition: 0.5s; }
-/* ==========================================================================
-Contact
-========================================================================== */
-.up-btn { width: 40px; height: 40px; border-radius: 50%; 
-	-moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; 
-	background: rgba(61, 201, 179, 0.5); display: block; margin: 0 auto; color: #fff; 
-	font-size: 18px; line-height: 46px; text-align: center; position: absolute; 
-	top: 0; left: 0; right: 0; margin-left: auto; margin-right: auto; }
-
-.up-btn:hover, up-btn:focus { color: #f3f5f8; background: rgba(61, 201, 179, 1); }
-
-.contact-details { margin: 10px 0; }
-
-.contact-details h2 { font-size: 50px; color: #575d61;}
-
-.contact-details h2 span { display: block; color: #3dc9b3; text-transform: uppercase; 
-	letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
-
-.contact-wrap { position: relative; }
-
-.contact-info{ max-width: 75%; max-height: 60%; margin: 0 auto;}
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -762,7 +654,7 @@ footer {
 	}
 
 footer p { 
-	color: #f3f5f8;  
+	color: #fff;  
 	font-family: 'Ubuntu', sans-serif; 
 	font-size: 0.8em;
 	}
@@ -803,8 +695,6 @@ Waypoints
 
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 
-.delay-05s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-
-.wp3 { background: url('../img/process5.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
