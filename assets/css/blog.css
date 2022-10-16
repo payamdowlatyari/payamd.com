@@ -1,7 +1,7 @@
 body{
     padding-top:10em;
-    color: #566573; 
-    background-color: #FDFEFE !important;
+    color: #022b3a; 
+    background-color: #f8f9fa !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -216,13 +216,13 @@ section.resume-section{
     
 section.resume-section .resume-item .resume-date{min-width:none}
 section.resume-section .resume-item { 
-    box-shadow: 0.5px 0.5px 5px 0.5px #a1a9b0;
+    box-shadow: 0.5px 0.5px 2px 0.5px #a1a9b0;
     border-radius: 5px; 
     margin: 25px;  
 }
 
 section.resume-section .resume-item:hover {
-    box-shadow: 0.5px 0.5px 10px 0.75px #a1a9b0; transition: 0.5s;
+    box-shadow: 0.5px 0.5px 3px 0.75px #a1a9b0; transition: 0.5s;
 }
 
 @media (min-width:768px){section.resume-section{min-height:90vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
@@ -230,12 +230,12 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-color: #1B4F72 !important;
+    background-color: #40798c !important;
 }
 
 .text-primary{ 
     font-size: 0.8em;
-    color:#1B4F72!important; 
+    color:#344e41!important; 
     text-transform: capitalize; 
     text-decoration: none;
     padding: 10px;
@@ -470,12 +470,12 @@ hr{
 }
 
 .rounded-img:hover {
-    box-shadow: 0.5px 0.5px 10px 1px #a1a9b0;
+    box-shadow: 0.5px 0.5px 5px 1px #a1a9b0;
     transition: 0.5s;
 }
 
 .rounded-img-paper{  
-    box-shadow: 0.5px 0.5px 5px 1px #a1a9b0;
+    box-shadow: 0.5px 0.5px 3px 1px #a1a9b0;
     width: 16em;
     height: 10em;
     margin: 1em;
@@ -483,9 +483,10 @@ hr{
 }   
 
 .rounded-img-paper:hover {
-    box-shadow: 0.5px 0.5px 10px 1px #a1a9b0;
+    box-shadow: 0.5px 0.5px 4px 1px #a1a9b0;
     transition: 0.5s;
 }
+
 
 
 
