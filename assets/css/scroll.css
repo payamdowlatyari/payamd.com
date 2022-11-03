@@ -11,6 +11,22 @@ body {
   margin: 0 auto;
 }
 
+.title{
+  color: #BA4A00;
+}
+
+.page-discription{
+  max-width: 500px;
+}
+
+.headline-1 {
+  direction: rtl;
+}
+
+.headline-2 {
+  direction: ltr;
+}
+
 header {
   display: flex;
   flex-direction: column;
