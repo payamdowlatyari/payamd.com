@@ -1,75 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>My Web Blog</title>
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="assets/css/blog.css" rel="stylesheet">
-  <!-- fontawesome cdn -->
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js"></script>
-  <script src="https://use.fontawesome.com/6675b002a4.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/scroll.css" rel="stylesheet">
+    <title>My Web Blog</title>
 </head>
+<body>
+    <header class="container">
+      <div class="menu-sticky home-link"> 
+        <span class="home-icon" target="_blank">
+          <a href="/index.html"> <i class="fa fa-home" aria-hidden="true"></i></a>
+        </span>
+      </div>
 
-<body id="page-top">
+      <div class="menu-sticky up-link"> 
+        <span class="up-icon">
+          <a href="#"> <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </span>
+      </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <div class="text-md-left mb-0" id="link-sub-2">
-      <a href="/index.html">
-        <i class="fa fa-home" aria-hidden="true"></i>
-      </a>
-      <a href="/blog.html">
-        My Web Blog</a>
+      <div class="menu-sticky menu-links" id="top-menu"> 
+       
+        <span id="open-menu">
+        <a href="#journey"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+        <a href="#book"><i class="fa fa-book" aria-hidden="true"></i></a>
+        <a href="#movie"><i class="fa fa-film" aria-hidden="true"></i></a>
+        <a href="#paper"><i class="fa fa-camera" aria-hidden="true"></i></a>
+        </span>
+        <span id="select-menu">
+          <span id="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+          <span id="open"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </span>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="nav-col navbar-toggler-icon"><span class="oi" data-glyph="menu"></span></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="journey.html">Journey of Life</a>
-          <a class="nav-link js-scroll-trigger" href="learn.html">Learn With Me</a>
-          <a class="nav-link js-scroll-trigger" href="grow.html">Grow As a Pro</a>
-          <a class="nav-link js-scroll-trigger" href="book.html">Read a Book</a>
-          <a class="nav-link js-scroll-trigger" href="movie.html">Watch a Movie</a>
-          <a class="nav-link js-scroll-trigger" href="paper.html">Write a Paper</a>
 
-        </li>
-      </ul>
+    <div class="menu-sticky social-links" id="social-menu"> 
+      <span id="open-social">
+      <a href="https://twitter.com/payamyam"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/payam.dowlatyari" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/payamdowlatyari" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://www.quora.com/profile/Payam-Dowlatyari" target="_blank"><i class="fa fa-quora" aria-hidden="true"></i></a>
+      <a href="https://medium.com/@pdowlatyari" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+    </span>
+      
+      <span id="select-social">
+        <span id="close-s"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+        <span id="open-s"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+      </span>
     </div>
-  </nav>
-  <div class="container-fluid p-0">
-    <hr class="m-0">
-    <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="paper">
-      <div class="w-100">
+        <h1 class="title">My <br> Web <br> blog</h1>
+        
+        <p class="page-discription pd-journey">
+           <a href="#journey">
+            I write about things I enjoy discovering in the journey of life.
+          </a>
+         </p>
+       
+        <p class="page-discription pd-book">
+          <a href="#book">
+            When I read an outstanding book, I write brief reviews afterward.
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
+          </a>
+        </p>
+        
+        <p class="page-discription pd-movie">
+          <a href="#movie">
+            If I watch a film by a brilliant director, I share my thoughts on that.          
+           </a>     
+        </p>
+      
+        <p class="page-discription pd-writing">
+          <a href="#paper">
+            I capture many photographs but only post inspiring ones.</a>   
+          </p>
+      
+        <h3><p class="animate-arrow">&darr;</p></h3>
+       
+      </header>
+      <section class="scroll-container" id="journey">
+        <div class="scroll-caption">
+          <h2 class="headline-1">
+            The Journey of Life
+          </h2>
+        </div>
+        <div class="scroll-element js-scroll fade-in">
+          <div class="text-content">
             <h3 class="mb-0">
-              <a href="/paper/Iran-movement.html">  “Women, Life, Liberty”: Story of a Social Movement </a>
+              <a href="/Paper/Iran-movement.html">  “Women, Life, Liberty”: Story of a Social Movement </a>
             </h3>
-            <p class="job-description">
+            <p class="p-description">
               October 22nd, 2022, was the day that Berlin witnessed around eighty thousand protesters who marched to show their support for the most expansive uprising against the Islamic government that has ruled Iran since the 1979 revolution (DW 2022). 
               More than 43 years ago, Iranians overthrew a modern westernized autocracy, and 2500 years of Persian monarchy began with the Achaemenid Empire and Ended with the Pahlavi Dynasty. 
               Since protests broke out on September 16th in Tehran — after Mahsa Amini, a 22-year-old woman was arrested by the police because of her improper hijab and brutally murdered while in custody — many Iranians have joined the uprising in different cities inside the country. 
@@ -91,91 +114,24 @@
             </p>
           </div>
         </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="topics">
-      <div class="w-100">
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="/sociology.html">Sociology</a> </h3>
-            <p class="job-description">
-              Sociology is the study of human behavior. Sociology refers to social behavior, society, patterns of social
-              relationships, social interaction, and culture that surrounds everyday life.
-              It helps us look more objectively at our society and other societies. It directs attention to how the
-              parts
-              of society fit together and change, as well as makes us aware of the consequences of that social change
-              <br><br>
-              As I am very interested in different aspects of societies in relation with people and collective behavior,
-              groups, statuses and roles, I
-              gathered some
-              of its basic concepts and definitions from reliable resources.
-              <a href="/sociology.html"> - [ Learn more ]</a>
-            </p>
-          </div>
+       
+      </section>
+      <section class="scroll-container" id="book">
+       
+        <div class="scroll-caption">
+          <h2 class="headline-2">
+            Books I Read
+          </h2>        
         </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="/psych.html">Psychology</a> </h3>
-            <p class="job-description">
-              There are many reasons to study psychology, from career prospects to personal interest. Psychology is a
-              fascinating area of study.
-              It is one of my favorite areas of study that allows me to better understand
-              people's intetions, motivations, and needs.
-              <br>
-              Psychology is the scientific study of the mind and behavior, according to the American Psychological
-              Association. Psychology is a multifaceted discipline and includes many sub-fields of study such areas as
-              human development, sports, health, clinical, social behavior and cognitive processes. <br><br>
-              Here, I would like to discuss some essential and key concepts of Psychology including Personality,
-              Learning, Mental
-              Development,
-              Intelligence, Social Psychology, Biological Psychology, etc. All definitions and theories are extracted
-              from reliable scientific
-              sources.
-              <br><br>
-              <a href="/psych.html"> Learn More </a>
-            </p>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="/philosophy.html">Philosophy</a> </h3>
-            <p class="job-description">
-              I think philosophy is an activity of mind. Philosophy is what happens when you start thinking for
-              yourself. It is a way of thinking about certain sorts
-              of question. I like philosophy because it gives me power to have a better understanding of reality and
-              helps me to learn how to ask the right questions and how to criticize wrong beliefs.
-              <br><br>
-              Once one frees oneself from the habits of received belief, those that one
-              just happens to have acquired even about basic issues, and really starts to think about what one ought to
-              believe, judged by reason (argument) and evidence, then one has started to do philosophy.
-              Let's take a look at some important terms and concepts in philosophy from scientific sources.
-              <br><br>
-              <a href="/philosophy.html"> Learn More </a>
-            </p>
-          </div>
-        </div>
-      
-      </div>
-    </section>
-
-    <hr class="m-0">
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="books">
-      <div class="w-100">
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
-            <h3 class="mb-0"></h3>
+        <div class="scroll-element js-scroll fade-in-bottom">
+          <div class="text-content">
+   
             <a href="https://www.goodreads.com/book/show/24204222-the-drama-of-the-gifted-child" style="float: left; padding-right: 20px">
               <img border="0" alt="The Drama of the Gifted Child: The Search for the True Self" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424570749l/24204222._SX98_.jpg" /></a>
               <a href="https://www.goodreads.com/book/show/24204222-the-drama-of-the-gifted-child">The Drama of the Gifted Child: The Search for the True Self</a> 
 
 
-            <p class="job-description">
+              <p class="p-description">
             by Alice Miller</a><br/>
 
             <strong> My rating:</strong> <a href="https://www.goodreads.com/review/show/4899106465">5 of 5 stars</a><br /><br />
@@ -193,14 +149,10 @@
                 <a href="/book.html"> More books to read</a>
             </p>
           </div>
-        </div>  
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
-            <h3 class="mb-0"></h3>
+          <div class="text-content">
             <a href="https://www.goodreads.com/book/show/27209431-the-inevitable" style="float: left; padding-right: 20px"><img border="0" alt="The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453057334l/27209431._SX98_.jpg" /></a>
             <a href="https://www.goodreads.com/book/show/27209431-the-inevitable">The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future</a> 
-            <p class="job-description">
+            <p class="p-description">
             by Kevin Kelly</a><br/>
             <strong> My rating:</strong> <a href="https://www.goodreads.com/review/show/4955437570">5 of 5 stars</a><br /><br />
         
@@ -221,35 +173,32 @@
             <a href="/book.html"> More books to read</a>
             </p>
           </div>
-        </div>  
-      
+        </div>
+      </section>
+      <section class="scroll-container" id="movie">
+       
+        <div class="scroll-caption">
+          <h2 class="headline-3">
+            Movies I Watched
+          </h2>        
+        </div>
+        <div class="scroll-element js-scroll slide-left">
+          <div class="text-content">
 
-     
-      
-      </div>
-    </section>
-
-
-    <hr class="m-0">
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="movie">
-      <div class="w-100">
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
-          <div class="resume-content">
-
-            <h3 class="mb-0">Solaris (1972)</h3>
-            <p>Director: Andrei Tarkovsky</p>
-
-            <span class="imdbRatingPlugin" data-user="ur125462040" data-title="tt0069293" data-style="p2"><a href="https://www.imdb.com/title/tt0069293/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Solaris (1972) on IMDb" />
+            <h3 class="item-title">Solaris (1972)</h3>
            
-              </a></span>
-            <br>
-            <img src="/assets/img/solaris-3.jpg" class="rounded-img" alt="img">
-
-            <p class="job-description">
-
-
+            <span class="imdbRatingPlugin" data-user="ur125462040" data-title="tt0069293" data-style="p2">
+              <a href="https://www.imdb.com/title/tt0069293/?ref_=plg_rt_1">
+                <img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Solaris (1972) on IMDb" />
+           
+              </a></span> <br>
+              <span>Director: Andrei Tarkovsky</span>
+              <br>
+            <p class="p-description">
+              <img src="/assets/img/solaris-3.jpg" class="rounded-img" alt="img">
+              <br>
               A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.             
+
                <br>
                <br><strong>My Review:</strong><br>
                Solaris is another masterpiece by Tarkovsky and one of the earliest Si-Fi/Drama movies full of artistic scenes and poetic moments. There aren't many directors like Tarkovsky that can capture the deepest human feelings in frames with so few or no words. Solaris, like the other movies by Tarkovsky, has a deep sense of mystery in almost all the scenes, in details, and overall flow of the story. 
@@ -260,40 +209,33 @@
               </p>
           </div>
         </div>
-       
-      </div>
-    </section>
-
-  
-    <hr class="m-0">
-
-    <hr class="m-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3 col-md-10 col-md-offset-1 col-sm-12 ">
-          <div class="copyright-link text-center">
-            <p>  
-              Designed by
-              <a href="https://www.payamd.com/" target="_blank">payamd.com</a>  
-                      &copy; 2019 - 2022
-            </p>
+      </section>
+      <section class="scroll-container" id="paper">
+        <div class="scroll-caption">
+          <h2 class="headline-4">
+            Photo of the day  
+          </h2> 
+        </div>
+        <div class="scroll-element js-scroll slide-right">
+         
+          <div class="text-content photo-container">
+            <h3 class="item-title">The Taste of Autumn</h3>
+          <img src="/images/fall-one.jpg" alt="leaves" class="image-full"/>
+          <img src="/images/orange-car.jpg" alt="an orange car" class="image-full"/>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="assets/js/resume.min.js"></script>
-
-    <!-- IMDB  -->
-    <script src="assets/js/blog.js"></script>
+      
+      </section>
+      <footer>
+        <p>
+            Designed by
+            <a href="https://www.payamd.com/" target="_blank">payamd.com</a>  
+                    &copy; 2019 - 2022
+          </p>
+      </footer>
 </body>
 
+<script src="/assets/js/scroll.js"></script>
+ <!-- IMDB  -->
+ <script src="assets/js/blog.js"></script>
 </html>
