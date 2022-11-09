@@ -165,7 +165,7 @@ a:hover{
 }
 
 .pd-journey{
-  transition: 0.5s;
+  transition: 0.75s;
   border: dashed #536b78;
   background-color: #536b78;
   color: #536b78;
@@ -179,6 +179,7 @@ a:hover{
 .pd-journey:hover{
   transition: 0.5s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-180px);
+  box-shadow: 1px 1px 100px 1000px #536b78;
 }
 
 .pd-writing{
@@ -194,8 +195,9 @@ a:hover{
 }
 
 .pd-writing:hover{
-  transition: 0.5s;
+  transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(180px);
+  box-shadow: 1px 1px 100px 1000px #bc4b51;
 }
 
 .pd-movie{
@@ -211,8 +213,9 @@ a:hover{
 }
 
 .pd-movie:hover{
-  transition: 0.5s;
+  transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-80px);
+  box-shadow: 1px 1px 100px 1000px #3c6e71;
 }
 
 .pd-book{
@@ -228,8 +231,9 @@ a:hover{
 }
 
 .pd-book:hover{
-  transition: 0.5s;
+  transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(80px);
+  box-shadow: 1px 1px 100px 1000px #d66853;
 }
 
 .headline-1 {
