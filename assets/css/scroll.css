@@ -8,8 +8,9 @@
 
 body {
   margin: 0;
-  background-color: #ffd166;
+  background-color: #111;
   font-family: 'Ubuntu', sans-serif; 
+
 }
 
 .container {
@@ -19,14 +20,33 @@ body {
 }
 
 .title{
-  color: #0a1128;
-  opacity: 0.15;
+  color: #ffd166;
   position: fixed;
   text-transform: uppercase;
   font-family: 'Sigmar One', cursive;
   font-size: 18em;
   line-height: 0.75em;
   align-content: flex-start;
+  animation: color-change-5x 15s linear infinite alternate both;
+
+}
+
+@keyframes color-change-5x {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  75% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .menu-sticky{
@@ -38,21 +58,21 @@ body {
 .menu-sticky a{
   text-decoration: none;
   text-transform: uppercase;
-  color: #0d3b66;
+  color: #ffd166;
   padding: 5px;
   font-size: 1.5em;
 }
 
 .home-link {
-  background-color: #ffd166;
+  background-color: #111;
   border-radius: 10px;
   top: 0;
   left: 0;
 }
 
 .up-link{
-  background-color: #ffd166;
-  color: #1982c4;
+  background-color: #111;
+  color: #ffd166;
   border-radius: 10px;
   bottom: 0;
   right: 0;
@@ -61,13 +81,13 @@ body {
 .menu-links{
   top: 0;
   right: 0;
-  background-color: #ffd166;
+  background-color: #111;
   border-radius: 10px;
 }
 
 .social-links{
-  background-color: #ffd166;
-  color: #1982c4;
+  background-color: #111;
+  color: #ffd166;
   border-radius: 10px;
   bottom: 0;
   left: 0;
@@ -75,7 +95,7 @@ body {
 
 .menu-sticky a:hover {
   transition: 0.3s;
-  color: #1982c4;
+  color: #ed6a5a;
 }
 
 #open-menu {
@@ -87,7 +107,7 @@ body {
   font-size: 1.5em;
   padding: 5px;
   cursor: pointer;
-  color: #0d3b66;
+  color: #ffd166;
 }
 
 @keyframes menu-anim {
@@ -108,7 +128,7 @@ body {
   font-size: 1.5em;
   padding: 5px;
   cursor: pointer;
-  color: #0d3b66;
+  color: #ffd166;
 }
 
 @keyframes social-anim {
@@ -135,10 +155,8 @@ a:hover{
 
 .page-discription{
   font-family: 'Voltaire', sans-serif;
-  border: dashed #536b78;
-  background-color: #536b78;
-  max-width: 500px;
-  font-size: 1.5em;
+  max-width: 200px;
+  font-size: 1.25em;
   color: #fff;
 }
 
@@ -150,8 +168,8 @@ a:hover{
   transition: 0.5s;
   border: dashed #536b78;
   background-color: #536b78;
-  color: #fff;
-  transform: rotate(-3deg) translateX(-200px);
+  color: #536b78;
+  transform: rotate(-1deg) translateX(-200px);
   position: sticky;
   top: 0;
   padding: 0.2em;
@@ -160,7 +178,7 @@ a:hover{
 
 .pd-journey:hover{
   transition: 0.5s;
-  transform: rotate(0deg) scale(1.1,1.1) translateX(-100px);
+  transform: rotate(0deg) scale(1.1,1.1) translateX(-180px);
 }
 
 .pd-writing{
@@ -168,7 +186,7 @@ a:hover{
   border: dashed #bc4b51;
   background-color: #bc4b51;
   color: #fff;
-  transform: rotate(3deg) translateX(200px);
+  transform: rotate(1deg) translateX(200px);
   position: sticky;
   top: 0;
   padding: 0.2em;
@@ -177,7 +195,7 @@ a:hover{
 
 .pd-writing:hover{
   transition: 0.5s;
-  transform: rotate(0deg) scale(1.1,1.1) translateX(100px);
+  transform: rotate(0deg) scale(1.1,1.1) translateX(180px);
 }
 
 .pd-movie{
@@ -185,7 +203,7 @@ a:hover{
   border: dashed #3c6e71;
   background-color: #3c6e71;
   color: #fff;
-  transform: rotate(-3deg) translateX(-100px);
+  transform: rotate(-2deg) translateX(-100px);
   position: sticky;
   top: 0;
   padding: 0.2em;
@@ -194,7 +212,7 @@ a:hover{
 
 .pd-movie:hover{
   transition: 0.5s;
-  transform: rotate(0deg) scale(1.1,1.1) translateX(-50px);
+  transform: rotate(0deg) scale(1.1,1.1) translateX(-80px);
 }
 
 .pd-book{
@@ -202,7 +220,7 @@ a:hover{
   border: dashed #d66853;
   background-color: #d66853;
   color: #fff;
-  transform: rotate(3deg) translateX(100px);
+  transform: rotate(2deg) translateX(100px);
   position: sticky;
   top: 0;
   padding: 0.2em;
@@ -211,7 +229,7 @@ a:hover{
 
 .pd-book:hover{
   transition: 0.5s;
-  transform: rotate(0deg) scale(1.1,1.1) translateX(50px);
+  transform: rotate(0deg) scale(1.1,1.1) translateX(80px);
 }
 
 .headline-1 {
@@ -307,10 +325,6 @@ header h2 {
   border-radius: 5px;
 }
 
-/* .scroll-caption {
-  margin: 1em;
-} */
-
 .photo-container{
   flex-direction: row;
   align-items: center;
@@ -351,7 +365,8 @@ footer a:hover {
 @media screen and (max-width: 650px) {
 
   .title{
-    font-size: 10em;
+    transition: 1s ease-in-out;
+    font-size: 8em;
   }
 
   .headline-1 { 
@@ -420,19 +435,19 @@ footer a:hover {
 
 .animate-arrow {
   animation: arrow-down 3s ease 0s infinite normal forwards;
-  color: #252422;
+  color: #ffd166;
   font-size: 3em;
 }
 
 @keyframes arrow-down {
 	0% {
 		opacity: 0;
-		transform: translateY(-50px);
+		transform: translateY(100px);
 	}
 
 	100% {
 		opacity: 1;
-		transform: translateY(100px);
+		transform: translateY(150px);
 	}
 }
 
