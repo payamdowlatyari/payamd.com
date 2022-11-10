@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  background-color: #111;
+  background-color: #11151c;
   font-family: 'Ubuntu', sans-serif; 
 
 }
@@ -27,7 +27,7 @@ body {
   font-size: 18em;
   line-height: 0.75em;
   align-content: flex-start;
-  animation: color-change-5x 15s linear infinite alternate both;
+  animation: color-change-5x 10s linear infinite alternate both;
 
 }
 
@@ -36,13 +36,13 @@ body {
     opacity: 0;
   }
   25% {
-    opacity: 0.1;
+    opacity: 0.05;
   }
   50% {
     opacity: 0.25;
   }
   75% {
-    opacity: 0.1;
+    opacity: 0.05;
   }
   100% {
     opacity: 0;
@@ -64,14 +64,14 @@ body {
 }
 
 .home-link {
-  background-color: #111;
+  background-color: #11151c;
   border-radius: 10px;
   top: 0;
   left: 0;
 }
 
 .up-link{
-  background-color: #111;
+  background-color: #11151c;
   color: #ffd166;
   border-radius: 10px;
   bottom: 0;
@@ -81,12 +81,12 @@ body {
 .menu-links{
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: #11151c;
   border-radius: 10px;
 }
 
 .social-links{
-  background-color: #111;
+  background-color: #11151c;
   color: #ffd166;
   border-radius: 10px;
   bottom: 0;
@@ -120,7 +120,7 @@ body {
 	}
 }
 
-#social-menu {
+#open-social {
   animation: social-anim 1s ease 0s 1 normal forwards;
 }
 
@@ -166,9 +166,9 @@ a:hover{
 
 .pd-journey{
   transition: 0.75s;
-  border: dashed #536b78;
-  background-color: #536b78;
-  color: #536b78;
+  border: dashed #33658a;
+  background-color: #33658a;
+  color: #33658a;
   transform: rotate(-1deg) translateX(-200px);
   position: sticky;
   top: 0;
@@ -179,7 +179,8 @@ a:hover{
 .pd-journey:hover{
   transition: 0.5s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-180px);
-  box-shadow: 1px 1px 100px 1000px #536b78;
+  box-shadow: 1px 1px 100px 1000px #33658a;
+  opacity: 0.9;
 }
 
 .pd-writing{
@@ -198,6 +199,7 @@ a:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(180px);
   box-shadow: 1px 1px 100px 1000px #bc4b51;
+  opacity: 0.9;
 }
 
 .pd-movie{
@@ -216,6 +218,7 @@ a:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-80px);
   box-shadow: 1px 1px 100px 1000px #3c6e71;
+  opacity: 0.9;
 }
 
 .pd-book{
@@ -234,6 +237,7 @@ a:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(80px);
   box-shadow: 1px 1px 100px 1000px #d66853;
+  opacity: 0.9;
 }
 
 .headline-1 {
@@ -241,7 +245,7 @@ a:hover{
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
-  color: #536b78;
+  color: #33658a;
   border-radius: 2px;
 }
 
@@ -287,8 +291,7 @@ header h2 {
 }
 
 .scroll-container {
-  /* height: 100vh; */
-  min-height: 450px;
+  min-height: 100vh;
   padding: 2em 1em;
   display: flex;
   flex-direction: row-reverse;
@@ -297,7 +300,7 @@ header h2 {
 }
 
 .scroll-container:nth-of-type(1) {
-  background-color: #536b78;
+  background-color: #33658a;
   color: #fff;
 }
 .scroll-container:nth-of-type(2) {
@@ -362,7 +365,7 @@ footer a {
 
 footer a:hover {
   transition: 0.3s;
-  color: #536b78;
+  color: #33658a;
   border: none;
 }
 
@@ -440,7 +443,7 @@ footer a:hover {
 .animate-arrow {
   animation: arrow-down 3s ease 0s infinite normal forwards;
   color: #ffd166;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 @keyframes arrow-down {
