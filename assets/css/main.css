@@ -808,7 +808,7 @@ background-size: cover;
 		display: grid;
 		grid-template-columns: auto auto;
 		grid-gap: 5px;
-		padding: 5px;
+		/* padding: 5px; */
 	  }
 	  
 	  .grid-container > div {
