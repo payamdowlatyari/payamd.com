@@ -68,9 +68,6 @@ body {
 
 .menu-lable{
   font-size: 0.75em;
-  /* font-family: 'Voltaire', sans-serif; */
-
-  /* vertical-align: text-top; */
   text-transform: uppercase;
 }
 
@@ -361,7 +358,6 @@ footer {
 }
 
 footer p {
-  /* font-family: 'Syne', sans-serif; */
   font-size: 0.75em;
   margin: 0.25em 0;
   color: #221133;
@@ -370,18 +366,18 @@ footer p {
 footer a {
   text-decoration: none;
   cursor: pointer;
-  /* color: #bc4b51; */
-  /* border: none; */
 }
 
 footer a:hover {
   transition: 0.5s;
   cursor: pointer;
-  /* color: #33658a; */
-  /* border: none; */
 }
 
 @media screen and (max-width: 650px) {
+
+  .container {
+    padding-top: 5vh;
+  }
 
   .title{
     transition: 1s ease-in-out;

@@ -35,7 +35,6 @@ body{
 #about{
     background-color: #34495E;
     box-shadow: none;
-    /* min-height: 100vh; */
 }
 
 #payamd-logo{
@@ -518,7 +517,7 @@ hr{
 
  #resume-title{
     color: #ffd166;
-    opacity: 0.75;
+    opacity: 0.9;
  }
 
 #interests i{
