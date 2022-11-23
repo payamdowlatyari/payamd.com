@@ -59,6 +59,7 @@ body {
 }
 
 .menu-sticky a{
+  display: block;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffd166;
@@ -161,7 +162,7 @@ a:hover{
 }
 
 .page-discription{
-  font-family: 'Voltaire', sans-serif;
+  font-family: 'Ubuntu', sans-serif; 
   max-width: 200px;
   font-size: 1.25em;
   color: #fff;
@@ -188,6 +189,7 @@ a:hover{
   transform: rotate(0deg) scale(1.1,1.1) translateX(-180px);
   box-shadow: 1px 1px 100px 1000px #33658a;
   opacity: 0.9;
+  z-index: 10000;
 }
 
 .pd-writing{
@@ -207,6 +209,7 @@ a:hover{
   transform: rotate(0deg) scale(1.1,1.1) translateX(180px);
   box-shadow: 1px 1px 100px 1000px #bc4b51;
   opacity: 0.9;
+  z-index: 10000;
 }
 
 .pd-movie{
@@ -226,6 +229,7 @@ a:hover{
   transform: rotate(0deg) scale(1.1,1.1) translateX(-80px);
   box-shadow: 1px 1px 100px 1000px #3c6e71;
   opacity: 0.9;
+  z-index: 10000;
 }
 
 .pd-book{
@@ -245,10 +249,10 @@ a:hover{
   transform: rotate(0deg) scale(1.1,1.1) translateX(80px);
   box-shadow: 1px 1px 100px 1000px #d66853;
   opacity: 0.9;
+  z-index: 10000;
 }
 
 .headline-1 {
-  font-family: 'Voltaire', sans-serif;
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
@@ -257,7 +261,6 @@ a:hover{
 }
 
 .headline-2 {
-  font-family: 'Voltaire', sans-serif;
   text-align: center;
   transform: rotate(-5deg);
   background-color: #fff;
@@ -266,7 +269,6 @@ a:hover{
 }
 
 .headline-3 {
-  font-family: 'Voltaire', sans-serif;
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
@@ -275,7 +277,6 @@ a:hover{
 }
 
 .headline-4 {
-  font-family: 'Voltaire', sans-serif;
   text-align: center;
   transform: rotate(-5deg);
   background-color: #fff;

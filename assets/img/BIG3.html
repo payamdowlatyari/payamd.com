@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+        <title>BIG3 - We're Changing the Game</title>
+        <link href="./favicon.png" rel="icon" />
+        <style>
+            html {
+                margin: 0;
+                background-color: #000000;
+            }
+
+            body {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script src="https://chat.amplify.ai/popups/5fb48d197fd50c4db5cc2730/amplify_popup_sdk.js"></script>
+        <script>
+            function redirect() {
+                console.log("Redirecting");
+                window.location = `https://big3.com/${window.location.search}`;
+            }
+
+            console.log("Adding Load Listener");
+            window.addEventListener("load", addListeners);
+
+            function addListeners() {
+                console.log("Adding Other Listeners");
+
+                addPopupOverlayObserver();
+
+                addSendStatusObserver();
+
+                addSendButtonListeners();
+            }
+
+            function addPopupOverlayObserver() {
+                var popupOverlay =
+                    document.getElementsByClassName("amp-popup-shade")[0];
+                if (popupOverlay) {
+                    console.log("Creating Popup Overlay Observer");
+                    var popupOverlayObserver = new MutationObserver(
+                        function () {
+                            if (popupOverlay.style.display == "none") {
+                                redirect();
+                            }
+                        }
+                    );
+                    console.log("Adding Popup Overlay Observer");
+                    popupOverlayObserver.observe(popupOverlay, {
+                        attributes: true,
+                        childList: true
+                    });
+                } else {
+                    console.log("Waiting for Popup Overlay");
+                    setTimeout(function () {
+                        addPopupOverlayObserver();
+                    }, 100);
+                }
+            }
+
+            function addSendStatusObserver() {
+                var sendStatus = document.getElementsByClassName(
+                    "amp-sms-sent-message-container"
+                )[0];
+                if (sendStatus) {
+                    console.log("Creating Send Status Observer");
+                    var sendStatusObserver = new MutationObserver(function () {
+                        if (sendStatus.style.display == "") {
+                            redirect();
+                        }
+                    });
+                    console.log("Adding Send Status Observer");
+                    sendStatusObserver.observe(sendStatus, {
+                        attributes: true,
+                        childList: true
+                    });
+                } else {
+                    console.log("Waiting for Send Status");
+                    setTimeout(function () {
+                        addSendStatusObserver();
+                    }, 100);
+                }
+            }
+
+            function addSendButtonListeners() {
+                var sendButton =
+                    document.getElementsByClassName("sms-click-link")[0];
+
+                if (sendButton) {
+                    console.log("Adding Click Listener");
+                    sendButton.addEventListener("click", function (e) {
+                        window.clickedSend = true;
+                    });
+                    console.log("Adding Visibility change Listener");
+                    window.addEventListener("visibilitychange", function (e) {
+                        if (
+                            document.visibilityState !== "visible" &&
+                            window.clickedSend
+                        ) {
+                            redirect();
+                        }
+                    });
+                } else {
+                    console.log("Waiting for Send Button");
+                    setTimeout(function () {
+                        addSendButtonListeners();
+                    }, 100);
+                }
+            }
+        </script>
+    </body>
+</html>

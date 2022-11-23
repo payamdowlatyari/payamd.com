@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
 body{
     padding-top:10em;
     background-color: #34495E !important;
@@ -48,12 +50,22 @@ body{
 
 #home-link {
     display: none;
-    
     font-size: 1em;
     padding: 0;
 }
 
 #home-link a{
+    padding: 0.3em;
+    color: #D6DBDF;
+}
+
+#resume-pdf{
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 0;
+}
+
+#resume-pdf a{
     padding: 0.3em;
     color: #D6DBDF;
 }
@@ -212,8 +224,6 @@ section.resume-section .resume-item:hover {
     }
 } 
 
-
-
 @media (min-width:768px){
     section.resume-section{
         min-height:max-content;
@@ -296,7 +306,7 @@ p{
 
 .sub-name{
     text-align: left;
-    color: #f77f00;
+    color: #5499C7;
     opacity: 0.9;
     font-style: normal;
     text-transform: uppercase;
@@ -306,7 +316,7 @@ p{
     animation-duration: 3s;  
     animation-fill-mode: backwards;
     font-family: 'Ubuntu', sans-serif; 
-    font-size: 1.75em;
+    font-size: 1.8em;
 }
 
 .iama{
@@ -769,4 +779,26 @@ hr{
       transform-origin: 50% 500px;
       opacity: 1;
     }
+  }
+
+  .waviy {
+    position: relative;
+    padding-left: 5px;
+    font-size: 1.2em;
+  }
+  .waviy span {
+    color: #f77f00;
+    position: relative;
+    display: inline-block;
+    animation: flip 5s infinite;
+    animation-delay: calc(.1s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  .skill-title{
+    color: #5499C7;
   }
