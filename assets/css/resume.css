@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
 body{
     padding-top:10em;
@@ -784,13 +784,15 @@ hr{
   .waviy {
     position: relative;
     padding-left: 5px;
-    font-size: 1.2em;
+    font-size: 1.35em;
   }
   .waviy span {
     color: #f77f00;
     position: relative;
     display: inline-block;
     animation: flip 5s infinite;
+    font-family: 'Unica One', cursive;
+    text-transform: lowercase;
     animation-delay: calc(.1s * var(--i))
   }
   @keyframes flip {

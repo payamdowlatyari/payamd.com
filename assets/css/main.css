@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -808,7 +810,6 @@ background-size: cover;
 		display: grid;
 		grid-template-columns: auto auto;
 		grid-gap: 5px;
-		/* padding: 5px; */
 	  }
 	  
 	  .grid-container > div {
@@ -1680,13 +1681,14 @@ form{
   .ml4 .letters {
 	position: absolute;
 	font-weight: 900;
-	font-size: 0.8em;
+	font-size: 0.95em;
 	left: 0;
 	top: 0;
 	right: 0;
 	opacity: 0; 
 	padding-left: 1em;
-	text-transform: uppercase;
+	font-family: 'Unica One', cursive;
+	text-transform: lowercase;
   }
 
   .form-control{
