@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -128,6 +127,7 @@ footer p {
 		outline: 0;
 		padding-left: 5px;
 		padding-right: 10px;
+		font-family: 'M PLUS Rounded 1c', sans-serif;
 	}
 
 		a:hover {
@@ -137,7 +137,6 @@ footer p {
 			opacity: 1;
 			transition: 1s;
 		}
-
 
 /* Icon */
 
@@ -272,12 +271,12 @@ background-size: cover;
 	}
   }
   
-#title{
+/* #title{
 	font-family: 'Ubuntu', sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: justify;
-}
+} */
 
 #home-text{
 	display: none;
@@ -293,7 +292,8 @@ background-size: cover;
 	vertical-align: top;
 	letter-spacing: 0.1em;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	/* font-family: 'Ubuntu', sans-serif; */
 }
 
 #social-links{
@@ -379,7 +379,6 @@ background-size: cover;
 	padding-top: 2em;
 	text-align: left;
 	padding-left: 2em;
-	font-family: 'Ubuntu', sans-serif;
 }
 
 .schedule a {
@@ -450,8 +449,6 @@ background-size: cover;
 		opacity: 1;
 	}
   }
-
-  
 
 	#bg {
 		-moz-animation: bg 60s linear infinite;
@@ -800,8 +797,8 @@ background-size: cover;
     	line-height: 2.5em;
     	position: absolute;
     	text-align: center;
-    	width: 100%;
-		font-family: sans-serif;
+    	font-family: 'M PLUS Rounded 1c', sans-serif;
+		width: 100%;
 		text-transform: uppercase;
     	font-size: smaller;
 	}
@@ -819,21 +816,19 @@ background-size: cover;
 
 		#header h1 {
 			font-size: 3.5em;
-			font-weight: 100;
-			letter-spacing: -0.025em;
+			letter-spacing: -0.02em;
 			line-height: 1em;
 			color: #fff;
-			opacity: 0.85;
-			font-family: 'Ubuntu', sans-serif;
+			opacity: 0.9;
+			font-family: 'M PLUS Rounded 1c', sans-serif;
 			text-transform: uppercase;
 		}
 
 		#header p {
-			font-family: 'Ubuntu', sans-serif;
-			font-size: 2.75em;
-			font-weight: 100;
+			font-family: 'M PLUS Rounded 1c', sans-serif;
+			font-size: 3.5em;
 			margin: 0.25em 0 0.25em 0;
-			opacity: 0.85;
+			opacity: 0.9;
 		}
 
 		#header nav {
@@ -996,7 +991,7 @@ background-size: cover;
 		position: absolute;
 		text-align: center;
 		width: 100%;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'M PLUS Rounded 1c', sans-serif;
 		font-size: 0.7em;
 	}
 
@@ -1273,7 +1268,6 @@ background-size: cover;
 
 		#header p {
 			font-size: 2em;
-			letter-spacing: 0.05em;
 		}
 
 		#header nav {
@@ -1287,9 +1281,6 @@ background-size: cover;
 			#header nav a:active {
 				font-size: 1em;
 			} 
-		
-		
-
 		}
 
 /* Mobile (Portrait) */
@@ -1367,6 +1358,10 @@ background-size: cover;
 		#bg {
 			background-size: 412.5px auto;
 			width: 1237.5px;
+		}
+
+		.ml4{
+			font-size: 0.9;
 		}
 
 	/* Header */
@@ -1447,7 +1442,7 @@ background-size: cover;
 #about-sec h1{
 	font-size: 2em;
 	text-transform: uppercase;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 	padding-bottom: 0.5em;
 	opacity: 0.75;
 }
@@ -1458,7 +1453,7 @@ background-size: cover;
 	font-size: 1em;
 	opacity: 0.75;
 	line-height: 1.5em;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #social-links-about {
@@ -1517,7 +1512,7 @@ form{
 	border: none;
 	text-transform: uppercase;
 	letter-spacing: 0.45em;
-	font-family: sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .sub-btn:hover{	
@@ -1562,77 +1557,11 @@ form{
 	opacity: 1;
 }
 
-.contact-form .calendly {
-	position: relative;
-	padding: 0.25em;
-	display: inline-block;
-}
- 
-.contact-form  .calendly a{
-	opacity: 0.6;
-	font-size: 0.8em;	
-	font-family: 'Ubuntu', sans-serif;
-	margin: 0.5em;
-}
-
-.contact-form  .calendly a:hover {
-	transition: 1s;
-	opacity: 0.9;
-}
-
-.contact-form .calendly img{
-	width: 3em;
-	opacity: 0.75;	
-	-webkit-animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
-	animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
-}
-
-@-webkit-keyframes rotate-hor-top {
-	0% {
-	  -webkit-transform: translateY(0) rotateX(0) scale(1);
-			  transform: translateY(0) rotateX(0) scale(1);
-	  -webkit-transform-origin: 50% 100%;
-			  transform-origin: 50% 100%;
-	}
-	50% {
-	  -webkit-transform: translateY(50%) rotateX(90deg) scale(2);
-			  transform: translateY(50%) rotateX(90deg) scale(2);
-	  -webkit-transform-origin: 50% 50%;
-			  transform-origin: 50% 50%;
-	}
-	100% {
-	  -webkit-transform: translateY(100%) rotateX(180deg) scale(1);
-			  transform: translateY(100%) rotateX(180deg) scale(1);
-	  -webkit-transform-origin: 50% 0%;
-			  transform-origin: 50% 0%;
-	}
-  }
-@keyframes rotate-hor-top {
-	0% {
-	  -webkit-transform: rotateX(0);
-			  transform: rotateX(0);
-	  -webkit-transform-origin: top;
-			  transform-origin: top;
-	}
-	100% {
-	  -webkit-transform: rotateX(-360deg);
-			  transform: rotateX(-360deg);
-	  -webkit-transform-origin: top;
-			  transform-origin: top;
-	}
-  }
-
-.contact-form .calendly img:hover {
-	transition: 1s;	
-	opacity: 0.9;
-	
-}
-
 .main-links a{
 	font-size: 0.75em;
 	letter-spacing: 0.0em;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .main-links {
@@ -1672,23 +1601,20 @@ form{
   
 .ml4 {
 	position: relative;	
-	letter-spacing: 0.08em;
 	font-weight: 900;
 	padding-bottom: 0.75em;
 	opacity: 0.9;
 	text-align: left;
   }
+
   .ml4 .letters {
 	position: absolute;
-	font-weight: 900;
-	font-size: 0.95em;
 	left: 0;
 	top: 0;
 	right: 0;
 	opacity: 0; 
-	padding-left: 1em;
-	font-family: 'Unica One', cursive;
-	text-transform: lowercase;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-transform: capitalize;
   }
 
   .form-control{
@@ -1699,7 +1625,7 @@ form{
   .contact-form .mini-title{
 	opacity: 0.8;
 	font-size: 0.9em;	
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 
   #email-phone a{
@@ -1794,21 +1720,48 @@ form{
 }
 
 #iam{
-	padding-left: 5px;
-	font-size: 0.5em;
-	opacity: 0.9;
-	font-weight: 100;
-	text-transform: none;
-	letter-spacing: 00.1em;
-	font-family: 'Ubuntu', sans-serif;
-	line-height: 00.25em;
+	font-size: 2em;
+	font-weight: 900;
+	opacity: 0.2;
+	letter-spacing: -0.1em;
+	writing-mode: vertical-lr;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	animation: roll-in-top 5s ease-out both;
 }
 
-#dot{
-	opacity: 0.9;
-	font-size: smaller;	
-	float: left;
+@keyframes roll-in-top {
+	0% {
+	  transform: translateY(-800px) rotate(-180deg);
+	  opacity: 0;
+
+	}
+	100% {
+	  opacity: 0.2;
+	  transform: translateY(0) rotate(0deg);
+	}
+  }
+
+#a-letter{
+	font-weight: 900;
+	font-size: 2em;
+	opacity: 0.2;
+	animation: roll-in-right 6s ease-out;
 }
+
+@keyframes roll-in-right {
+	0% {
+	  opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	  }
+	90% {
+		opacity: 0.1;
+	  }
+	100% {
+	  opacity: 0.2;
+	}
+  }
 
 #fname{
 	font-weight: 900;
@@ -1818,13 +1771,6 @@ form{
 #lname{
 	font-size: 0.9em;
 	font-weight: 900;
-}
-
-#welc{
-	font-size: 1.3em;
-	letter-spacing: 0.2em;
-	text-align: left;
-	font-family: 'Ubuntu', sans-serif;
 }
 
 #dlname{

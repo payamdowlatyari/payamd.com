@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
 
 body{
     padding-top:10em;
     background-color: #34495E !important;
     color: #17202A; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -57,11 +59,13 @@ body{
 #home-link a{
     padding: 0.3em;
     color: #D6DBDF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #resume-pdf{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.075em;
     padding: 0;
 }
 
@@ -71,7 +75,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{    
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight:900;
     color:#222; 
     opacity: 1;
@@ -83,12 +87,12 @@ h1{
      font-size:4em;
      line-height:2em; 
      font-weight: 900;
-     font-family: 'Ubuntu', sans-serif; 
+     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 h2{
     padding: 0.75em;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #30638e;
     font-weight: 900;
     font-size:2em; 
@@ -114,7 +118,7 @@ h3{
 #link-sub-2 a{
     padding: .25em;
     font-size: 1.5em;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     opacity: 0.8;
     font-weight: 100;
     text-transform: uppercase;
@@ -284,14 +288,14 @@ p{
     padding-left: 1em;
      opacity: 0.8;
      font-size: 0.8em;
-	 font-family: 'Syne', sans-serif;
+	 font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .fullName{
    text-align: left;
    line-height: 1em;
    color: #34495E;
-   font-family: 'Ubuntu', sans-serif; 
+   font-family: 'M PLUS Rounded 1c', sans-serif;
    font-weight: 900;
    position: relative;
    animation-name: my-name;
@@ -315,7 +319,7 @@ p{
     animation-name: my-sub-name;
     animation-duration: 3s;  
     animation-fill-mode: backwards;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.8em;
 }
 
@@ -411,7 +415,7 @@ hr{
 }
 
 .small-title{
-    font-family: 'Syne', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 900;
     opacity: 0.9;
 }
@@ -420,7 +424,7 @@ hr{
 }
 .skill-set p {
     font-size: 0.9em;
-    font-family: 'Syne', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     padding: 0.5em;
     padding-bottom: 1em;
 }
@@ -451,7 +455,7 @@ hr{
 .copyright-link{ 
     padding-top: 1em;
     padding-bottom: 1em;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #D6DBDF;
 }
 
@@ -512,7 +516,7 @@ hr{
 }
 
  #small-portfolio{
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
      font-weight: 700;
      color: #D6DBDF;
      text-transform: uppercase;

@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
 
 body {
   margin: 0;
   background-color: #11151c;
-  font-family: 'Ubuntu', sans-serif; 
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 
@@ -27,9 +23,8 @@ body {
   color: #ffd166;
   position: fixed;
   text-transform: uppercase;
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 18em;
-  line-height: 0.75em;
   align-content: flex-start;
   animation: color-change-5x 10s linear infinite alternate both;
 }
@@ -162,9 +157,9 @@ a:hover{
 }
 
 .page-discription{
-  font-family: 'Ubuntu', sans-serif; 
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   max-width: 200px;
-  font-size: 1.25em;
+  font-size: 1.2em;
   color: #fff;
 }
 
@@ -290,7 +285,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   height: 100vh;
 }
 
@@ -463,17 +458,17 @@ footer a:hover {
 @keyframes arrow-down {
 	0% {
 		opacity: 0;
-		transform: translateY(100px);
+		transform: translateY(0px);
 	}
 
 	100% {
 		opacity: 1;
-		transform: translateY(150px);
+		transform: translateY(50px);
 	}
 }
 
 .text-content{
-  font-family: 'Marcellus', serif;  
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #221133;
   background-color: #fff;
   padding: 2em;
@@ -482,7 +477,7 @@ footer a:hover {
 }
 
 .p-description{
-  font-family: 'Marcellus', serif;  
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .rounded-img{  

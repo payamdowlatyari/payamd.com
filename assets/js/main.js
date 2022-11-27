@@ -21,8 +21,8 @@ const off = () => {
 // title animation first page
 var ml4 = {};
 ml4.opacityIn = [0, 0.9];
-ml4.scaleIn = [0.9, 1];
-ml4.scaleOut = [1, 1.1];
+ml4.scaleIn = [0.98, 1];
+ml4.scaleOut = [1, 1];
 ml4.durationIn = 2000;
 ml4.durationOut = 2000;
 ml4.delay = 2500;
@@ -82,3 +82,6 @@ anime.timeline({ loop: true })
 		duration: 0,
 		delay: 0
 	});	
+
+
+
