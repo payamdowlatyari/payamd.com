@@ -88,10 +88,10 @@ sub { bottom: -0.25em; }
 
 
 #small-resume{
-	font-size: 0.7em;
+	font-size: 0.75em;
 	font-family: 'M PLUS Rounded 1c', sans-serif; 
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	font-weight: 700;
 	padding-left: 20px;
 	color: #98c1d9;
@@ -259,6 +259,7 @@ h2 {
 #portfolio-title{
 	color: #f08080;
 	line-height: 1.05em;
+	font-size: 0.9em;
 	animation: tracking-in-contract 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 @keyframes tracking-in-contract {

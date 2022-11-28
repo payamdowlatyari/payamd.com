@@ -1364,6 +1364,7 @@ background-size: cover;
 			font-size: 0.9;
 		}
 
+
 	/* Header */
 
 		#header nav {
@@ -1733,12 +1734,15 @@ form{
 	0% {
 	  transform: translateY(-800px) rotate(-180deg);
 	  opacity: 0;
-
+	}
+	50% {
+	  opacity: 0.1;
+	  transform: translateY(-400px) rotate(-90deg);
 	}
 	100% {
-	  opacity: 0.2;
-	  transform: translateY(0) rotate(0deg);
-	}
+		opacity: 0.2;
+		transform: translateY(0) rotate(0deg);
+	  }
   }
 
 #a-letter{
@@ -1752,14 +1756,20 @@ form{
 	0% {
 	  opacity: 0;
 	}
-	80% {
+	50% {
 		opacity: 0;
+	  }
+	80% {
+		opacity: 0.1;
+		font-size: 2.5em
 	  }
 	90% {
 		opacity: 0.1;
+		font-size: 2.25em;
 	  }
 	100% {
 	  opacity: 0.2;
+	  font-size: 2em;
 	}
   }
 
@@ -1777,6 +1787,68 @@ form{
 	font-size: 1.2em;
 	font-weight: 900;
 }
+
+/* #welc{
+	text-transform: capitalize;
+	font-size: 1.25em;
+	opacity: 0;
+	font-weight: 900;
+	animation: fade-in 6s ease-out;
+} */
+
+/* @keyframes fade-in {
+	0% {
+	  opacity: 0;
+	  letter-spacing: 0.5em;
+	  transform: translateX(-1000);
+	}
+	25% {
+		opacity: 0.1;
+		letter-spacing: 0.4em;
+		transform: translateX(-500);
+	  }
+	50% {
+		opacity: 0.5;
+		letter-spacing: 0.3em;
+		transform: translateX(0);
+	  }
+	75% {
+		opacity: 0.1;
+		letter-spacing: 0.2em;
+		transform: translateX(500);
+	  }  
+	100% {
+	  opacity: 0;
+	  letter-spacing: 0.1em;
+	  transform: translateX(1000);
+	}
+  } */
+
+
+#welc {
+	position: relative;
+	text-transform: capitalize;
+	font-size: 1.25em;
+	font-weight: 900;
+	opacity: 0.2;
+	background: linear-gradient(90deg, transparent, #fff ,transparent, #fff, transparent, #fff);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 3s linear 3 both;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+	0% {
+	  background-position: -500%;
+	}
+	100% {
+	  background-position: 500%;
+	}
+  }
+
+
 
   
 
