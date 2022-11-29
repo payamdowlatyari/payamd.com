@@ -270,13 +270,6 @@ background-size: cover;
 			  transform-origin: top;
 	}
   }
-  
-/* #title{
-	font-family: 'Ubuntu', sans-serif;
-	color: #fff;
-	text-transform: uppercase;
-	text-align: justify;
-} */
 
 #home-text{
 	display: none;
@@ -293,7 +286,6 @@ background-size: cover;
 	letter-spacing: 0.1em;
 	font-weight: 500;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
-	/* font-family: 'Ubuntu', sans-serif; */
 }
 
 #social-links{
@@ -1727,7 +1719,7 @@ form{
 	letter-spacing: -0.1em;
 	writing-mode: vertical-lr;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
-	animation: roll-in-top 5s ease-out both;
+	animation: roll-in-top 10s ease-out both;
 }
 
 @keyframes roll-in-top {
@@ -1735,41 +1727,62 @@ form{
 	  transform: translateY(-800px) rotate(-180deg);
 	  opacity: 0;
 	}
-	50% {
+	25% {
 	  opacity: 0.1;
 	  transform: translateY(-400px) rotate(-90deg);
 	}
-	100% {
+	50% {
 		opacity: 0.2;
-		transform: translateY(0) rotate(0deg);
+		transform: translateY(0px) rotate(0deg);
 	  }
+	75% {
+		opacity: 0.1;
+		transform: translateY(400px) rotate(90deg);
+	  }
+	100% {
+		  opacity: 0;
+		  transform: translateY(800px) rotate(180deg);
+		}
   }
 
 #a-letter{
 	font-weight: 900;
-	font-size: 2em;
+	font-size: 4em;
 	opacity: 0.2;
-	animation: roll-in-right 6s ease-out;
+	animation: roll-in-right 10s ease-out both;
 }
 
 @keyframes roll-in-right {
 	0% {
 	  opacity: 0;
 	}
+	25% {
+		opacity: 0.1;
+		font-size: 2em;
+	  }
 	50% {
-		opacity: 0;
+		opacity: 0.15;
+		font-size: 2.5em;
+	  }
+	60% {
+		opacity: 0.15;
+		font-size: 3.5em;
+	  }
+	70% {
+		opacity: 0.2;
+		font-size: 4em;
 	  }
 	80% {
-		opacity: 0.1;
-		font-size: 2.5em
-	  }
+		opacity: 0.15;
+		font-size: 4em;
+	  }  
 	90% {
 		opacity: 0.1;
-		font-size: 2.25em;
+		font-size: 4em;
 	  }
 	100% {
-	  opacity: 0.2;
-	  font-size: 2em;
+	  opacity: 0;
+	  font-size: 4em;
 	}
   }
 
@@ -1788,43 +1801,6 @@ form{
 	font-weight: 900;
 }
 
-/* #welc{
-	text-transform: capitalize;
-	font-size: 1.25em;
-	opacity: 0;
-	font-weight: 900;
-	animation: fade-in 6s ease-out;
-} */
-
-/* @keyframes fade-in {
-	0% {
-	  opacity: 0;
-	  letter-spacing: 0.5em;
-	  transform: translateX(-1000);
-	}
-	25% {
-		opacity: 0.1;
-		letter-spacing: 0.4em;
-		transform: translateX(-500);
-	  }
-	50% {
-		opacity: 0.5;
-		letter-spacing: 0.3em;
-		transform: translateX(0);
-	  }
-	75% {
-		opacity: 0.1;
-		letter-spacing: 0.2em;
-		transform: translateX(500);
-	  }  
-	100% {
-	  opacity: 0;
-	  letter-spacing: 0.1em;
-	  transform: translateX(1000);
-	}
-  } */
-
-
 #welc {
 	position: relative;
 	text-transform: capitalize;
@@ -1835,6 +1811,7 @@ form{
 	background-repeat: no-repeat;
 	background-size: 80%;
 	animation: animate 3s linear 3 both;
+	background-clip: initial;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
