@@ -20,7 +20,8 @@ body {
 }
 
 .title{
-  color: #ffd166;
+  /* color: #ffd166; */
+  color: #fff;
   position: fixed;
   text-transform: uppercase;
   font-family: 'Libre Barcode 39 Text', cursive;
@@ -57,7 +58,7 @@ body {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  color: #ffd166;
+  color: #fff;
   padding: 5px;
   font-size: 1.5em;
 }
@@ -75,7 +76,7 @@ body {
 
 .up-link{
   background-color: #11151c;
-  color: #ffd166;
+  color: #fff;
   border-radius: 10px;
   bottom: 0;
   right: 0;
@@ -90,7 +91,7 @@ body {
 
 .social-links{
   background-color: #11151c;
-  color: #ffd166;
+  color: #fff;
   border-radius: 10px;
   bottom: 0;
   left: 0;
@@ -110,7 +111,7 @@ body {
   font-size: 1.5em;
   padding: 5px;
   cursor: pointer;
-  color: #ffd166;
+  color: #fff;
 }
 
 @keyframes menu-anim {
@@ -131,7 +132,7 @@ body {
   font-size: 1.5em;
   padding: 5px;
   cursor: pointer;
-  color: #ffd166;
+  color: #fff;
 }
 
 @keyframes social-anim {
@@ -177,6 +178,7 @@ a:hover{
   top: 0;
   padding: 0.2em;
   border-radius: 5px;
+  margin-top: 5em;
 }
 
 .pd-journey:hover{
@@ -350,7 +352,7 @@ header h2 {
 footer {
   text-align: center;
   padding: 0.5em 0;
-  background-color: #ffd166;
+  background-color: #fff;
 }
 
 footer p {
@@ -451,7 +453,7 @@ footer a:hover {
 
 .animate-arrow {
   animation: arrow-down 3s ease 0s infinite normal forwards;
-  color: #ffd166;
+  color: #fff;
   font-size: 2em;
 }
 
