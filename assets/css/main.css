@@ -1803,7 +1803,7 @@ form{
 #welc {
 	position: relative;
 	text-transform: capitalize;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: 900;
 	opacity: 0.25;
 	background: linear-gradient(180deg, transparent, #fff , #fff, #fff);
@@ -1877,10 +1877,4 @@ form{
 	opacity: 0;	
 	transform: scale(0.1, 1);
 }
-
-
-  
-
-
-
 

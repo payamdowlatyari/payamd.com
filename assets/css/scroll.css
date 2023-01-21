@@ -19,34 +19,6 @@ body {
   width: 125px;
 }
 
-/* .title{
-  color: #fff;
-  position: fixed;
-  text-transform: uppercase;
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 12em;
-  align-content: flex-start;
-  animation: color-change-5x 10s linear infinite alternate both;
-}
-
-@keyframes color-change-5x {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.05;
-  }
-  50% {
-    opacity: 0.25;
-  }
-  75% {
-    opacity: 0.05;
-  }
-  100% {
-    opacity: 0;
-  }
-} */
-
 .menu-sticky{
   position: fixed;
   padding: 1em;
@@ -58,6 +30,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  opacity: 0.8;
   padding: 5px;
   font-size: 1.5em;
 }
@@ -75,7 +48,6 @@ body {
 
 .up-link{
   background-color: #11151c;
-  color: #fff;
   border-radius: 10px;
   bottom: 0;
   right: 0;
@@ -98,7 +70,7 @@ body {
 
 .menu-sticky a:hover {
   transition: 0.3s;
-  color: #00a7e1;
+  /* color: #00a7e1; */
 }
 
 #open-menu {
@@ -168,9 +140,9 @@ a:hover{
 
 .pd-journey{
   transition: 0.75s;
-  border: dashed #003d5b;
-  background-color: #003d5b;
-  color: #003d5b;
+  border: dashed #748cab;
+  background-color: #748cab;
+  color: #748cab;
   transform: rotate(-1deg) translateX(-200px);
   position: sticky;
   top: 0;
@@ -182,15 +154,15 @@ a:hover{
 .pd-journey:hover{
   transition: 0.5s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-180px);
-  box-shadow: 1px 1px 100px 1000px #003d5b;
+  box-shadow: 1px 1px 100px 1000px #748cab;
   opacity: 0.9;
   z-index: 10000;
 }
 
 .pd-writing{
   transition: 0.5s;
-  border: dashed #d1495b;
-  background-color: #d1495b;
+  border: dashed #a6808c;
+  background-color: #a6808c;
   color: #fff;
   transform: rotate(1deg) translateX(200px);
   position: sticky;
@@ -202,15 +174,15 @@ a:hover{
 .pd-writing:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(180px);
-  box-shadow: 1px 1px 100px 1000px #d1495b;
+  box-shadow: 1px 1px 100px 1000px #a6808c;
   opacity: 0.9;
   z-index: 10000;
 }
 
 .pd-movie{
   transition: 0.5s;
-  border: dashed #00798c;
-  background-color: #00798c;
+  border: dashed #55828b;
+  background-color: #55828b;
   color: #fff;
   transform: rotate(-2deg) translateX(-100px);
   position: sticky;
@@ -222,15 +194,15 @@ a:hover{
 .pd-movie:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-80px);
-  box-shadow: 1px 1px 100px 1000px #00798c;
+  box-shadow: 1px 1px 100px 1000px #55828b;
   opacity: 0.9;
   z-index: 10000;
 }
 
 .pd-book{
   transition: 0.5s;
-  border: dashed #30638e;
-  background-color: #30638e;
+  border: dashed #565264;
+  background-color: #565264;
   color: #fff;
   transform: rotate(2deg) translateX(100px);
   position: sticky;
@@ -242,7 +214,7 @@ a:hover{
 .pd-book:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(80px);
-  box-shadow: 1px 1px 100px 1000px #30638e;
+  box-shadow: 1px 1px 100px 1000px #565264;
   opacity: 0.9;
   z-index: 10000;
 }
@@ -251,7 +223,7 @@ a:hover{
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
-  color: #003d5b;
+  color: #748cab;
   border-radius: 2px;
 }
 
@@ -259,7 +231,7 @@ a:hover{
   text-align: center;
   transform: rotate(-5deg);
   background-color: #fff;
-  color: #30638e;
+  color: #565264;
   border-radius: 2px;
 }
 
@@ -267,7 +239,7 @@ a:hover{
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
-  color: #00798c;
+  color: #55828b;
   border-radius: 2px;
 }
 
@@ -275,7 +247,7 @@ a:hover{
   text-align: center;
   transform: rotate(-5deg);
   background-color: #fff;
-  color: #d1495b;
+  color: #a6808c;
   border-radius: 2px;
 }
 
@@ -303,19 +275,19 @@ header h2 {
 }
 
 .scroll-container:nth-of-type(1) {
-  background-color: #003d5b;
+  background-color: #748cab;
   color: #fff;
 }
 .scroll-container:nth-of-type(2) {
-  background-color: #30638e;
+  background-color: #565264;
   color: #fff;
 }
 .scroll-container:nth-of-type(3) {
-  background-color: #00798c;
+  background-color: #55828b;
   color: #fff;
 }
 .scroll-container:nth-of-type(4) {
-  background-color: #d1495b;
+  background-color: #a6808c;
   color: #fff;
 }
 
@@ -566,7 +538,7 @@ footer a:hover {
 
 /* title  */
 .title{
-  color: #fff;
+  color: #bfcde0;
   position: fixed;
   text-transform: uppercase;
   font-family: 'Libre Barcode 39 Text', cursive;

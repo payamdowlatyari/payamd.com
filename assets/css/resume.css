@@ -201,7 +201,7 @@ section.resume-section .resume-item:hover {
 
 @media(max-width: 520px){
 
-    #home-link {
+    /* #home-link {
         display: block;
         position: relative;
     }
@@ -212,7 +212,7 @@ section.resume-section .resume-item:hover {
 
     #small-portfolio{
         display: none;
-    }
+    } */
 
     .navbar {
         min-width: 100%!important; 
@@ -292,7 +292,7 @@ p{
 
 .fullName{
    text-align: left;
-   line-height: 0.85em;
+   line-height: 0.95em;
    color: #da627d;
    font-family: 'M PLUS Rounded 1c', sans-serif;
    font-weight: 900;
