@@ -3,7 +3,7 @@
 
 body{
     padding-top:10em;
-    background-color: #34495E !important;
+    background-color: #EBF5FB !important;
     color: #17202A; 
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-repeat: no-repeat;
@@ -37,7 +37,6 @@ body{
 }
 
 #about{
-    background-color: #34495E;
     box-shadow: none;
 }
 
@@ -58,7 +57,7 @@ body{
 
 #home-link a{
     padding: 0.3em;
-    color: #D6DBDF;
+    color: #17202A;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -93,7 +92,7 @@ h1{
 h2{
     padding: 0.75em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #30638e;
+    color: #4f6d7a;
     font-weight: 900;
     font-size:2em; 
     text-transform: uppercase;
@@ -161,7 +160,7 @@ h3{
 .nav-link{display:block; padding-top: 2em; padding-bottom: 2em;}
 
 section.resume-section{
-    background-color: #FDFEFE;
+    background-color: #EBF5FB;
     border-radius: 5px; 
     max-width: 992px;
     margin: auto;
@@ -249,7 +248,7 @@ section.resume-section .resume-item:hover {
 
 .text-primary{ 
     font-size: 0.85em;
-    color: #5499C7 !important;
+    color: #4f6d7a !important;
     text-transform: capitalize; 
     text-decoration: none;
     padding: 10px;
@@ -293,8 +292,8 @@ p{
 
 .fullName{
    text-align: left;
-   line-height: 1em;
-   color: #34495E;
+   line-height: 0.85em;
+   color: #da627d;
    font-family: 'M PLUS Rounded 1c', sans-serif;
    font-weight: 900;
    position: relative;
@@ -456,12 +455,12 @@ hr{
     padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #D6DBDF;
+    color: #17202A;
 }
 
 .copyright-link a {
     text-transform: lowercase;
-    color: #FDFEFE;
+    color: #30638e;
 }
 
 .paper-details{
@@ -517,10 +516,10 @@ hr{
 
  #small-portfolio{
     font-family: 'M PLUS Rounded 1c', sans-serif;
-     font-weight: 700;
-     color: #D6DBDF;
+     font-weight: 900;
+     font-size: 1.25em;
+     color: #34495E;
      text-transform: uppercase;
-     letter-spacing: 0.1em;
      padding-left: 5px;
  }
 
@@ -529,8 +528,13 @@ hr{
     opacity: 1 !important;
  }
 
+ #my-title{
+    color: #34495E;
+    opacity: 0.9;
+ }
+
  #resume-title{
-    color: #ffd166;
+    color: #da627d;
     opacity: 0.9;
  }
 
@@ -543,7 +547,7 @@ hr{
 }
 
 .fas{
-    color: #FDFEFE;
+    /* color: #FDFEFE; */
     opacity: 0.6;
     display: block;
     font-size: 2em;

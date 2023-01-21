@@ -59,7 +59,6 @@ select.addEventListener('click', () => {
     c.style.display = 'inline';
     open.style.display = 'inline';
   }  
-
   else{
     c.style.display = 'none';
     o.style.display = 'inline';

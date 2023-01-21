@@ -19,13 +19,12 @@ body {
   width: 125px;
 }
 
-.title{
-  /* color: #ffd166; */
+/* .title{
   color: #fff;
   position: fixed;
   text-transform: uppercase;
   font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 18em;
+  font-size: 12em;
   align-content: flex-start;
   animation: color-change-5x 10s linear infinite alternate both;
 }
@@ -46,7 +45,7 @@ body {
   100% {
     opacity: 0;
   }
-}
+} */
 
 .menu-sticky{
   position: fixed;
@@ -99,7 +98,7 @@ body {
 
 .menu-sticky a:hover {
   transition: 0.3s;
-  color: #ed6a5a;
+  color: #00a7e1;
 }
 
 #open-menu {
@@ -132,7 +131,6 @@ body {
   font-size: 1.5em;
   padding: 5px;
   cursor: pointer;
-  color: #fff;
 }
 
 @keyframes social-anim {
@@ -170,9 +168,9 @@ a:hover{
 
 .pd-journey{
   transition: 0.75s;
-  border: dashed #33658a;
-  background-color: #33658a;
-  color: #33658a;
+  border: dashed #003d5b;
+  background-color: #003d5b;
+  color: #003d5b;
   transform: rotate(-1deg) translateX(-200px);
   position: sticky;
   top: 0;
@@ -184,15 +182,15 @@ a:hover{
 .pd-journey:hover{
   transition: 0.5s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-180px);
-  box-shadow: 1px 1px 100px 1000px #33658a;
+  box-shadow: 1px 1px 100px 1000px #003d5b;
   opacity: 0.9;
   z-index: 10000;
 }
 
 .pd-writing{
   transition: 0.5s;
-  border: dashed #bc4b51;
-  background-color: #bc4b51;
+  border: dashed #d1495b;
+  background-color: #d1495b;
   color: #fff;
   transform: rotate(1deg) translateX(200px);
   position: sticky;
@@ -204,15 +202,15 @@ a:hover{
 .pd-writing:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(180px);
-  box-shadow: 1px 1px 100px 1000px #bc4b51;
+  box-shadow: 1px 1px 100px 1000px #d1495b;
   opacity: 0.9;
   z-index: 10000;
 }
 
 .pd-movie{
   transition: 0.5s;
-  border: dashed #3c6e71;
-  background-color: #3c6e71;
+  border: dashed #00798c;
+  background-color: #00798c;
   color: #fff;
   transform: rotate(-2deg) translateX(-100px);
   position: sticky;
@@ -224,15 +222,15 @@ a:hover{
 .pd-movie:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(-80px);
-  box-shadow: 1px 1px 100px 1000px #3c6e71;
+  box-shadow: 1px 1px 100px 1000px #00798c;
   opacity: 0.9;
   z-index: 10000;
 }
 
 .pd-book{
   transition: 0.5s;
-  border: dashed #d66853;
-  background-color: #d66853;
+  border: dashed #30638e;
+  background-color: #30638e;
   color: #fff;
   transform: rotate(2deg) translateX(100px);
   position: sticky;
@@ -244,7 +242,7 @@ a:hover{
 .pd-book:hover{
   transition: 0.75s;
   transform: rotate(0deg) scale(1.1,1.1) translateX(80px);
-  box-shadow: 1px 1px 100px 1000px #d66853;
+  box-shadow: 1px 1px 100px 1000px #30638e;
   opacity: 0.9;
   z-index: 10000;
 }
@@ -253,7 +251,7 @@ a:hover{
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
-  color: #33658a;
+  color: #003d5b;
   border-radius: 2px;
 }
 
@@ -261,7 +259,7 @@ a:hover{
   text-align: center;
   transform: rotate(-5deg);
   background-color: #fff;
-  color: #d66853;
+  color: #30638e;
   border-radius: 2px;
 }
 
@@ -269,7 +267,7 @@ a:hover{
   text-align: center;
   transform: rotate(5deg);
   background-color: #fff;
-  color: #3c6e71;
+  color: #00798c;
   border-radius: 2px;
 }
 
@@ -277,7 +275,7 @@ a:hover{
   text-align: center;
   transform: rotate(-5deg);
   background-color: #fff;
-  color: #bc4b51;
+  color: #d1495b;
   border-radius: 2px;
 }
 
@@ -305,19 +303,19 @@ header h2 {
 }
 
 .scroll-container:nth-of-type(1) {
-  background-color: #33658a;
+  background-color: #003d5b;
   color: #fff;
 }
 .scroll-container:nth-of-type(2) {
-  background-color: #d66853;
+  background-color: #30638e;
   color: #fff;
 }
 .scroll-container:nth-of-type(3) {
-  background-color: #3c6e71;
+  background-color: #00798c;
   color: #fff;
 }
 .scroll-container:nth-of-type(4) {
-  background-color: #bc4b51;
+  background-color: #d1495b;
   color: #fff;
 }
 
@@ -563,5 +561,93 @@ footer a:hover {
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* title  */
+.title{
+  color: #fff;
+  position: fixed;
+  text-transform: uppercase;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 12em;
+  align-content: flex-start;
+  animation: shake 2.5s linear forwards;
+}
+
+
+.title span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
+          clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
+}
+
+.title::before,
+.title::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title::before {
+  animation: crack1 2.5s linear forwards;
+  -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+}
+
+.title::after {
+  animation: crack2 2.5s linear forwards;
+  -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+          clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+}
+
+@keyframes shake {
+  5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+      filter: blur(0.018em);
+      transform: translateY(0.018em) rotate(0deg);
+  }
+
+  10%, 30%, 40%, 50%, 70%, 80%, 90% {
+      filter: blur(0.01em);
+      transform: translateY(-0.018em) rotate(0deg);
+  }
+
+  20%, 60% {
+      filter: blur(0.03em);
+      transform: translate(-0.018em, 0.018em) rotate(0deg);
+  }
+
+  45%, 85% {
+      filter: blur(0.03em);
+      transform: translate(0.018em, -0.018em) rotate(0deg);
+  }
+
+  100% {
+      filter: blur(0.007em);
+      transform: translate(0) rotate(-0.5deg);
+  }
+}
+
+@keyframes crack1 {
+  0%, 95% {
+      transform: translate(-50%, -50%);
+  }
+
+  100% {
+      transform: translate(-51%, -48%);
+  }
+}
+
+@keyframes crack2 {
+  0%, 95% {
+      transform: translate(-50%, -50%);
+  }
+
+  100% {
+      transform: translate(-49%, -53%);
   }
 }
