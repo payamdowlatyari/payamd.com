@@ -48,49 +48,49 @@ const open = document.getElementById('open-menu');
 let c = document.getElementById('close');
 let o = document.getElementById('open');
 
-open.style.display = 'none';
-o.style.display = 'inline';
-c.style.display = 'none';
+// open.style.display = 'none';
+// o.style.display = 'inline';
+// c.style.display = 'none';
 
-select.addEventListener('click', () => {
+// select.addEventListener('click', () => {
 
-  if(open.style.display == 'none'){
-    o.style.display = 'none';
-    c.style.display = 'inline';
-    open.style.display = 'inline';
-  }  
-  else{
-    c.style.display = 'none';
-    o.style.display = 'inline';
-    open.style.display = 'none';
-  }
-});
+//   if(open.style.display == 'none'){
+//     o.style.display = 'none';
+//     c.style.display = 'inline';
+//     open.style.display = 'inline';
+//   }  
+//   else{
+//     c.style.display = 'none';
+//     o.style.display = 'inline';
+//     open.style.display = 'none';
+//   }
+// });
 
 // social menu
 
-const social = document.getElementById('social-menu');
-const openS = document.getElementById('open-social');
-let cs = document.getElementById('close-s');
-let os = document.getElementById('open-s');
+// const social = document.getElementById('social-menu');
+// const openS = document.getElementById('open-social');
+// let cs = document.getElementById('close-s');
+// let os = document.getElementById('open-s');
 
-openS.style.display = 'none';
-os.style.display = 'inline';
-cs.style.display = 'none';
+// openS.style.display = 'none';
+// os.style.display = 'inline';
+// cs.style.display = 'none';
 
-social.addEventListener('click', () => {
+// social.addEventListener('click', () => {
 
-  if(openS.style.display == 'none'){
-    os.style.display = 'none';
-    cs.style.display = 'inline';
-    openS.style.display = 'inline';
-  }  
+//   if(openS.style.display == 'none'){
+//     os.style.display = 'none';
+//     cs.style.display = 'inline';
+//     openS.style.display = 'inline';
+//   }  
 
-  else{
-    cs.style.display = 'none';
-    os.style.display = 'inline';
-    openS.style.display = 'none';
-  }
-})
+//   else{
+//     cs.style.display = 'none';
+//     os.style.display = 'inline';
+//     openS.style.display = 'none';
+//   }
+// })
 
 // Add up arrow
 // window.onscroll = () => { scrollFunction() };
