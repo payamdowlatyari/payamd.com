@@ -2,9 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+section {
+  display: flex;
+}
+
 body {
   margin: 0;
-  background-color: #f4f3ee;
+  background-color: #11151c;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   animation-name: bg-page;
   animation-duration: 3s;
@@ -86,7 +95,7 @@ body {
 
 .menu-sticky a:hover {
   transition: 0.3s;
-  color: #da627d;
+  /* color: #4d908e; */
 }
 
 #open-menu {
@@ -130,6 +139,7 @@ body {
 		opacity: 1;
 	}
 }
+
 
 a {
   color: #4f6d7a;
@@ -553,12 +563,12 @@ footer a:hover {
 }
 /* title  */
 .title{
-  color: #11151c;
+  color: #edf6f9;
   position: fixed;
   text-transform: uppercase;
   font-family: 'Zilla Slab Highlight', cursive;
   /* font-family: 'Libre Barcode 39 Text', cursive; */
-  font-size: 12em;
+  font-size: 8em;
   align-content: flex-start;
   animation: shake 2.5s linear forwards;
 }
@@ -615,7 +625,7 @@ footer a:hover {
   }
 
   100% {
-      filter: blur(0.007em);
+      /* filter: blur(0.007em); */
       transform: translate(0) rotate(-0.5deg);
   }
 }
