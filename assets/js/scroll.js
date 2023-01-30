@@ -116,3 +116,46 @@ let o = document.getElementById('open');
 //   js.src = "https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js"; 
 //   stags.parentNode.insertBefore(js, stags); 
 // })(document, "script", "imdb-rating-api");
+
+
+window.onscroll = () => { scrollFunction() };
+
+const scrollFunction = () => {
+
+    const topNav = document.getElementById('top-nav');
+    const logo = document.getElementById("logo");
+    const home = document.getElementById("logo-home");
+    const title = document.getElementById("title");
+    const blog = document.getElementById("logo-blog");
+
+    let navLinks = document.getElementsByClassName('nav-link');
+
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+    topNav.style.paddingTop = "5px";
+    topNav.style.paddingBottom = "5px";
+    topNav.style.height = "1.25em";
+    topNav.style.transition = "1s";
+    topNav.style.backgroundColor = "#FDFEFE";
+   
+    logo.style.display = "none";
+    home.style.display = "inline-flex";
+    title.style.display = "none";
+    blog.style.display = "inline-flex";
+
+    for(let i = 0; i < navLinks.length; i++)
+        navLinks[i].style.color = "#111"
+
+  } else {
+    topNav.style.transition = "1s";
+    logo.style.display = "block";
+    home.style.display = "none";
+    blog.style.display = "none";
+    title.style.display = "block";
+    topNav.style.backgroundColor = "transparent";
+
+    for(let i = 0; i < navLinks.length; i++)
+        navLinks[i].style.color = "#11151c"
+  }
+}
+

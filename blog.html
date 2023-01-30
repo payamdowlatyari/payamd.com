@@ -15,29 +15,43 @@
 </head>
 <body>
     <header class="container">
-      <div class="menu-sticky home-link"> 
+
+      <nav class="pull" id="top-nav">
+        <a class="title" href="#" data-text="My Web Blog" id="title">
+          My Web Blog
+         </a> 
+         
+         <a class="nav-link" href="#" id="logo-blog">
+          My Web Blog
+        </a>     
+        <a href="/index.html" id="logo">
+          <img src="/assets/img/payamd-logo-white-500x320.png"/>
+        </a>
+        
+        <a class="nav-link" href="/index.html" id="logo-home">
+          Home
+        </a> 
+      </nav>
+
+      <!-- <div class="home-link"> 
+      </span>
+        <a href="#" class="title" data-text="My Web Blog">
+         My Web Blog
+        </a>  
+        <span>
         <span class="home-icon" target="_blank">
           <a href="/index.html"> 
             <img src="/assets/img/payamd-logo-white-500x320.png"/>
           </a>
         </span>
-      </div>
+       
+      </div> -->
 
       <div class="menu-sticky menu-links" id="top-menu">  
-        <!-- <span id="select-menu">
-          <span id="close"><i class="fa fa-times" aria-hidden="true"></i></span>
-          <span id="open">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-          </span>
-        </span> -->
-        <span id="open-menu">
-          <a href="#"> <i class="fa fa-home" aria-hidden="true"></i></a>
-        <a href="#journey"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-        <a href="#book"><i class="fa fa-book" aria-hidden="true"></i></a>
-        <a href="#movie"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-        <a href="#paper"><i class="fa fa-camera-retro" aria-hidden="true"></i></a>
-        </span>
-       
+        <a href="#journey"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+        <a href="#book"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+        <a href="#movie"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+        <a href="#paper"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
     </div>
 
     <!-- <div class="menu-sticky social-links" id="social-menu"> 
@@ -57,43 +71,44 @@
     </div> -->
    
       <!-- <h1 class="title">my<br> Web blog</h1> -->
-      <h1 class="title" data-text="My Web Blog"><span>My Web Blog</span></h1>
-
-        <p class="page-discription pd-journey">
+     
+     
+        <p class="page-discription">
            <a href="#journey">
-            Here, I write about things I notice in the journey of life, 
+            Notes 
           </a>
          </p>
        
-        <p class="page-discription pd-book">
+        <p class="page-discription">
           <a href="#book">
-            review the books I read, and find them worthwhile,
+            Books
           </a>
         </p>
         
-        <p class="page-discription pd-movie">
+        <p class="page-discription">
           <a href="#movie">
-            share my thoughts on creative and inspiring films,          
+            Films       
            </a>     
         </p>
       
-        <p class="page-discription pd-writing">
+        <p class="page-discription">
           <a href="#paper">
-            and post photos I like most among the many I capture.
+            Photos
           </a>   
           </p>
       
-        <h3><p class="animate-arrow">&darr;</p></h3>
+        <p class="animate-arrow">&darr;</p>
        
       </header>
       <section class="scroll-container" id="journey">
-        <div class="scroll-caption">
+        <!-- <div class="scroll-caption">
+          
           <h2 class="headline-1">
             <a href="journey.html">
             The Journey of Life
             </a>
           </h2>
-        </div>
+        </div> -->
         <div class="scroll-element js-scroll fade-in">
           <div class="text-content">
             <h3 class="mb-0">
@@ -125,19 +140,21 @@
       </section>
       <section class="scroll-container" id="book">
        
-        <div class="scroll-caption">
+        <!-- <div class="scroll-caption">
           <h2 class="headline-2">
             <a href="book.html">
             Books I Read
             </a>
           </h2>        
-        </div>
+        </div> -->
         <div class="scroll-element js-scroll fade-in-bottom">
 
           <div class="text-content">
           
 
-          <a href="https://www.goodreads.com/book/show/194805.Understanding_Power" style="float: left; padding-right: 20px"><img border="0" alt="Understanding Power: The Indispensable Chomsky" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924655l/194805._SX98_.jpg" /></a>
+          <a href="https://www.goodreads.com/book/show/194805.Understanding_Power" class="image-link">
+          <img border="0" alt="Understanding Power: The Indispensable Chomsky" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924655l/194805._SX98_.jpg" />
+          </a>
           <a href="https://www.goodreads.com/book/show/194805.Understanding_Power">Understanding Power: The Indispensable Chomsky</a> 
           <p class="p-description">
           by Noam Chomsky</a><br/>
@@ -162,7 +179,7 @@
 
 
           <div class="text-content">
-            <a href="https://www.goodreads.com/book/show/20821140-world-order" style="float: left; padding-right: 20px"><img border="0" alt="World Order" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400873909l/20821140._SX98_.jpg" /></a>
+            <a href="https://www.goodreads.com/book/show/20821140-world-order" class="image-link"><img border="0" alt="World Order" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400873909l/20821140._SX98_.jpg" /></a>
             <a href="https://www.goodreads.com/book/show/20821140-world-order">World Order</a> 
             <p class="p-description">
             by Henry Kissinger</a><br/>
@@ -189,7 +206,7 @@
 
 
          <div class="text-content">
-          <a href="https://www.goodreads.com/book/show/60465542-influenced" style="float: left; padding-right: 20px"><img border="0" alt="Influenced: The Impact of Social Media on Our Perception" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652109931l/60465542._SX98_.jpg" /></a>
+          <a href="https://www.goodreads.com/book/show/60465542-influenced" class="image-link"><img border="0" alt="Influenced: The Impact of Social Media on Our Perception" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652109931l/60465542._SX98_.jpg" /></a>
           
           <a href="https://www.goodreads.com/book/show/60465542-influenced">Influenced: The Impact of Social Media on Our Perception</a> 
 
@@ -218,7 +235,7 @@
 
 
           <div class="text-content">
-            <a href="https://www.goodreads.com/book/show/1028884.The_Shah" style="float: left; padding-right: 20px"><img border="0" alt="The Shah" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312071731l/1028884._SX98_.jpg" /></a>
+            <a href="https://www.goodreads.com/book/show/1028884.The_Shah" class="image-link"><img border="0" alt="The Shah" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312071731l/1028884._SX98_.jpg" /></a>
             <a href="https://www.goodreads.com/book/show/1028884.The_Shah">The Shah</a> 
             <p class="p-description">
             by Abbas Milani</a><br/>
@@ -241,7 +258,7 @@
 
           <div class="text-content">
    
-            <a href="https://www.goodreads.com/book/show/24204222-the-drama-of-the-gifted-child" style="float: left; padding-right: 20px">
+            <a href="https://www.goodreads.com/book/show/24204222-the-drama-of-the-gifted-child" class="image-link">
               <img border="0" alt="The Drama of the Gifted Child: The Search for the True Self" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424570749l/24204222._SX98_.jpg" /></a>
               <a href="https://www.goodreads.com/book/show/24204222-the-drama-of-the-gifted-child">The Drama of the Gifted Child: The Search for the True Self</a> 
 
@@ -264,7 +281,7 @@
             </p>
           </div>
           <div class="text-content">
-            <a href="https://www.goodreads.com/book/show/27209431-the-inevitable" style="float: left; padding-right: 20px"><img border="0" alt="The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453057334l/27209431._SX98_.jpg" /></a>
+            <a href="https://www.goodreads.com/book/show/27209431-the-inevitable" class="image-link"><img border="0" alt="The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453057334l/27209431._SX98_.jpg" /></a>
             <a href="https://www.goodreads.com/book/show/27209431-the-inevitable">The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future</a> 
             <p class="p-description">
             by Kevin Kelly</a><br/>
@@ -290,18 +307,18 @@
       </section>
       <section class="scroll-container" id="movie">
        
-        <div class="scroll-caption">
+        <!-- <div class="scroll-caption">
           <h2 class="headline-3">
             <a href="movie.html">
               Movies I Watched
             </a>
           </h2>        
-        </div>
+        </div> -->
         <div class="scroll-element js-scroll slide-left">
 
 
           <div class="text-content">
-
+            <img src="/assets/img/Fanny_and_Alexander_englisch_MG_2423_credit_Robert_Josipovic_-_Logo_quadratisch_-_Webseite_72_dpi_300px.png" class="rounded-img" alt="img">
             <h3 class="item-title">
               Fanny and Alexander (1982)
             </h3>
@@ -309,12 +326,10 @@
               <a href="https://www.imdb.com/title/tt0083922/?ref_=plg_rt_1">
                 <img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt=" Fanny and Alexander (1982) on IMDb" />
               </a></span>
-             <br>
+             <br>  <br> 
               <span>Director: Ingmar Bergman</span>
-              <br>
             <p class="p-description">
-              <img src="/assets/img/Fanny_and_Alexander_englisch_MG_2423_credit_Robert_Josipovic_-_Logo_quadratisch_-_Webseite_72_dpi_300px.png" class="rounded-img" alt="img">
-              <br>
+           
               Two young Swedish children in the 1900s experience the many comedies and tragedies of their lively and affectionate theatrical family, the Ekdahls.
                <br>
                <br><strong>My Review:</strong><br>
@@ -332,19 +347,19 @@
           </div>
 
           <div class="text-content">
-
+            <img src="/assets/img/solaris-3.jpg" class="rounded-img" alt="img">
             <h3 class="item-title">Solaris (1972)</h3>
-           
             <span class="imdbRatingPlugin" data-user="ur125462040" data-title="tt0069293" data-style="p2">
+             
+              
               <a href="https://www.imdb.com/title/tt0069293/?ref_=plg_rt_1">
                 <img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Solaris (1972) on IMDb" />
-           
-              </a></span> <br>
-              <span>Director: Andrei Tarkovsky</span>
-              <br>
+               
+              </a></span> <br> <br>
+             
+              Director: Andrei Tarkovsky <br>
             <p class="p-description">
-              <img src="/assets/img/solaris-3.jpg" class="rounded-img" alt="img">
-              <br>
+             
               A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.             
 
                <br>
@@ -359,13 +374,13 @@
         </div>
       </section>
       <section class="scroll-container" id="paper">
-        <div class="scroll-caption">
+        <!-- <div class="scroll-caption">
           <h2 class="headline-4">
             <a href="photoasl.html">
             Photo of the day  
             </a>
           </h2> 
-        </div>
+        </div> -->
         <div class="scroll-element js-scroll slide-right">
           <div class="text-content photo-container">
             <h3 class="item-title">Taste of Autumn</h3>

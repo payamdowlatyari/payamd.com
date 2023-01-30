@@ -1,7 +1,7 @@
 body{
     padding-top:10em;
     color: #022b3a; 
-    background-color: #f8f9fa !important;
+    background-color: #eff1f3 !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -230,7 +230,7 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-color: #40798c !important;
+    background-color: #223843 !important;
 }
 
 .text-primary{ 
