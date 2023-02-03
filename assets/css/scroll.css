@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -16,7 +16,10 @@ section {
 body {
   margin: 0;
   background-color: #11151c;
-  font-family: 'Noto Sans Kannada', sans-serif;
+  /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+  /* font-weight: 100; */
+  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Noto Sans Kannada', sans-serif; */
   animation-name: bg-page;
   animation-duration: 3s;
 }
@@ -39,14 +42,6 @@ body {
   max-width: 1280px;
   width: 95%;
   margin: 0 auto;
-}
-
-.home-icon img{
-  width: 100px;
-  padding: 1em;
-  position: fixed;
-  top: 0;
-  right: 0;
 }
 
 nav { 
@@ -73,7 +68,7 @@ nav a {
 	 opacity: 0.8;
 }
 
-nav a:hover, nav a:focus { text-decoration: none; color: #fff; transition: 1s; opacity: 1;} 
+nav a:hover, nav a:focus { text-decoration: none; color: #fff; transition: 0.5s; opacity: 1;} 
 
 .pull {
 	position: fixed; 
@@ -87,11 +82,11 @@ padding-top: 2vh;
 }
 
 #top-nav a::before {
-  background: #fff;
+  background: #11151c;
 }
 
 #top-nav a:hover {
-  background: #fff;
+  background: #11151c;
 }
 
 #logo{
@@ -107,77 +102,72 @@ display: inline;
 #logo-home{
 display: none;
 position: fixed;
-right: 0;
-padding-right: 1em;
+left: 0;
+padding-left: 1em;
 }
 
 #logo-blog{
   display: none;
   position: fixed;
-  left: 0;
-  padding-left: 1em;
+  right: 0;
+  padding-right: 1em
 }
 
 #logo img {
 height: auto;
 width: 100px;
-padding: 1em;
+padding: 0.5em;
 position: fixed;
 top: 0;
-right: 0;
+left: 0;
 }
 
-.menu-sticky{
+.menu-links{
   position: fixed;
+  right: 0;
+  border-radius: 5px;
+  opacity: 0.8;
   padding: 1em;
   z-index: 1001;
 }
 
-.menu-sticky a{
+.menu-links a{
   display: block;
   text-decoration: none;
   text-transform: uppercase;
   color: #d9d9d9;
   padding: 5px;
-  font-size: 1.5em;
 }
 
-.home-link {
-  position: sticky;
-  display: block;
-  padding: 1em;
-  top: 0;
-  left:0;
-}
-
-.menu-links{
-  right: 0;
-  border-radius: 5px;
-  opacity: 0.9;
-}
-
-.menu-links a::before , a::after{
+.menu-links a::before {
   background: #11151c !important;
-  color: #fff;
+  color: #ebf2fa;
 }
 
 .menu-links a:hover {
-  color: #fff;
-}
-
-.menu-sticky a:hover {
+  color: #ebf2fa;
   transition: 0.3s;
   transform: scale(1.2,1.2);
   opacity: 1;
   background-color: #11151c;
 }
 
-#select-menu{
-  font-size: 1.5em;
-  padding: 5px;
-  cursor: pointer;
-  color: #fff;
-  background: #11151c;
+header .menu-links ul li {
+  list-style-type: none;
+}
+
+header .menu-links ul li a {
+  background: #11151c !important;
+  color: #ebf2fa;
+  opacity: 0.75;
+}
+
+header .menu-links ul li.active {
+  transform: scale(1.25,1.25);
+  opacity: 1;
+}
+header .menu-links ul li.active a {
+  opacity: 1;
 }
 
 a::before {  
@@ -203,6 +193,7 @@ a::before {
 a { 
   font-family: 'Encode Sans SC', sans-serif;
   position: relative;
+  display: table;
   color: #fff;
   text-decoration: none;
   font-weight: 900;
@@ -294,13 +285,13 @@ header h2 {
   max-width: 100%;
   margin-bottom: 1em;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 footer {
   text-align: center;
   padding: 0.5em 0;
-  color: #d9d9d9;
+  color: #eff1f3;
 }
 
 footer p {
@@ -310,11 +301,18 @@ footer p {
 
 footer a {
   text-decoration: none;
+  font-family: 'Noto Sans Kannada', sans-serif;
+  display: inline;
   cursor: pointer;
+  font-weight: 900;
+  background-color: #11151c;
+  color: #eff1f3;
 }
 
 footer a:hover {
-  transition: 0.5s;
+  transition: 0.3s;
+  background-color: #11151c;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -334,15 +332,10 @@ footer a:hover {
   .scroll-element {
     height: 100%;
   }
-
-  .scroll-element,
-  .scroll-caption {
-    width: 100%;
-  }
 }
 /**Styling scrollable elements*/
 
-.animate-arrow {
+/* .animate-arrow {
   animation: arrow-down 3s ease 0s infinite normal forwards;
   color: #fff;
   font-size: 2em;
@@ -358,7 +351,7 @@ footer a:hover {
 		opacity: 1;
 		transform: translateY(50px);
 	}
-}
+} */
 
 .text-content{
   color: #eff1f3;
@@ -395,6 +388,11 @@ footer a:hover {
 .item-title{
   font-weight: 900;
   background-color: #11151c;
+}
+
+.img-title {
+  font-size: 1em;
+  display: inline;
 }
 
 .js-scroll {
@@ -470,42 +468,88 @@ footer a:hover {
   }
 }
 
-
 /* title  */
 .title{
-  color: #edf6f9;
+  color: #eff1f3;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   padding: 1em;
-  text-transform: uppercase;
-  font-family: 'Zilla Slab Highlight', cursive;
   font-size: 1.5em;
   align-content: flex-start;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 1000;
 }
 
 .title::before,
 .title::after {
-  color: #edf6f9;
+  color: #eff1f3;
   background: #11151c;
 }
 
 .title:hover {
-  color: #edf6f9;
+  color: #eff1f3;
   background: #11151c;
   opacity: 1;
 }
 
 #top-nav #title::before,
 #top-nav #title::after {
-  color: #edf6f9;
+  color: #eff1f3;
   background: #11151c;
 }
 
 #top-nav #title:hover {
-  color: #edf6f9;
+  color: #eff1f3;
   background: #11151c;
-  opacity: 1;
 }
+
+
+/* arrow animation */
+  
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  top: 90%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #eff1f3 solid;
+  border-bottom: 2px #eff1f3 solid;
+}
+  
+.arrow:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #eff1f3 solid;
+  border-bottom: 1px #eff1f3 solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}  
+
+@keyframes arrow{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+  
+  
+  
+  
